@@ -140,7 +140,7 @@ def parse_top15_psp(filepath: Path, psp_type: str, year: int, month: int) -> pd.
         }
     elif matching_columns[1] == alt_label:
         rename_map = {
-            alt_label_2: "psp_name",
+            alt_label: "psp_name",
             "total_volume_in_mn": "total_volume_mn",
             "approved_percent": "approved_percent",
             "bd_percent": "business_decline_percent",
@@ -148,7 +148,7 @@ def parse_top15_psp(filepath: Path, psp_type: str, year: int, month: int) -> pd.
         }
     else:
         rename_map = {
-            alt_label: "psp_name",
+            alt_label_2: "psp_name",
             "Total Volume (In Mn)": "total_volume_mn",
             "Approved %": "approved_percent",
             "BD %": "business_decline_percent",
