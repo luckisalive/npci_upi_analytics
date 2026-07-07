@@ -1,0 +1,58 @@
+2026-07-07 05:21:34,441 | INFO | ============================================================
+2026-07-07 05:21:34,442 | INFO | P2P/P2M ETL started: 2026-07-07 05:21:34.442300
+2026-07-07 05:21:34,443 | INFO | Files found: 51
+2026-07-07 05:21:34,904 | INFO | [2022_01.xlsx] Parsed | Total vol: 4617.15 Mn | P2P: 59.7% | P2M: 40.3% | Year: 2022, Month: 1
+2026-07-07 05:21:34,936 | INFO | [2022_02.xlsx] Parsed | Total vol: 4527.49 Mn | P2P: 58.1% | P2M: 41.9% | Year: 2022, Month: 2
+2026-07-07 05:21:34,965 | INFO | [2022_03.xlsx] Parsed | Total vol: 5405.65 Mn | P2P: 59.2% | P2M: 40.8% | Year: 2022, Month: 3
+2026-07-07 05:21:35,000 | INFO | [2022_04.xlsx] Parsed | Total vol: 5583.05 Mn | P2P: 59.5% | P2M: 40.5% | Year: 2022, Month: 4
+2026-07-07 05:21:35,036 | INFO | [2022_05.xlsx] Parsed | Total vol: 5955.20 Mn | P2P: 57.2% | P2M: 42.8% | Year: 2022, Month: 5
+2026-07-07 05:21:35,070 | INFO | [2022_06.xlsx] Parsed | Total vol: 5862.75 Mn | P2P: 56.3% | P2M: 43.7% | Year: 2022, Month: 6
+2026-07-07 05:21:35,100 | INFO | [2022_07.xlsx] Parsed | Total vol: 6288.40 Mn | P2P: 52.3% | P2M: 47.7% | Year: 2022, Month: 7
+2026-07-07 05:21:35,132 | INFO | [2022_08.xlsx] Parsed | Total vol: 6579.63 Mn | P2P: 50.0% | P2M: 50.0% | Year: 2022, Month: 8
+2026-07-07 05:21:35,162 | INFO | [2022_09.xlsx] Parsed | Total vol: 6780.80 Mn | P2P: 47.7% | P2M: 52.3% | Year: 2022, Month: 9
+2026-07-07 05:21:35,192 | INFO | [2022_10.xlsx] Parsed | Total vol: 7305.42 Mn | P2P: 47.0% | P2M: 53.0% | Year: 2022, Month: 10
+2026-07-07 05:21:35,220 | INFO | [2022_11.xlsx] Parsed | Total vol: 7309.45 Mn | P2P: 46.5% | P2M: 53.5% | Year: 2022, Month: 11
+2026-07-07 05:21:35,249 | INFO | [2022_12.xlsx] Parsed | Total vol: 7829.49 Mn | P2P: 46.0% | P2M: 54.0% | Year: 2022, Month: 12
+2026-07-07 05:21:35,280 | INFO | [2023_01.xlsx] Parsed | Total vol: 8036.89 Mn | P2P: 45.1% | P2M: 54.9% | Year: 2023, Month: 1
+2026-07-07 05:21:35,312 | INFO | [2023_02.xlsx] Parsed | Total vol: 7534.76 Mn | P2P: 44.9% | P2M: 55.1% | Year: 2023, Month: 2
+2026-07-07 05:21:35,345 | INFO | [2023_03.xlsx] Parsed | Total vol: 8685.30 Mn | P2P: 44.4% | P2M: 55.6% | Year: 2023, Month: 3
+2026-07-07 05:21:35,375 | INFO | [2023_04.xlsx] Parsed | Total vol: 8898.14 Mn | P2P: 43.5% | P2M: 56.5% | Year: 2023, Month: 4
+2026-07-07 05:21:35,409 | INFO | [2023_05.xlsx] Parsed | Total vol: 9415.19 Mn | P2P: 43.0% | P2M: 57.0% | Year: 2023, Month: 5
+2026-07-07 05:21:35,443 | INFO | [2023_06.xlsx] Parsed | Total vol: 9335.06 Mn | P2P: 42.5% | P2M: 57.5% | Year: 2023, Month: 6
+2026-07-07 05:21:35,475 | INFO | [2023_07.xlsx] Parsed | Total vol: 9964.61 Mn | P2P: 42.0% | P2M: 58.0% | Year: 2023, Month: 7
+2026-07-07 05:21:35,505 | INFO | [2023_08.xlsx] Parsed | Total vol: 10586.02 Mn | P2P: 41.5% | P2M: 58.5% | Year: 2023, Month: 8
+2026-07-07 05:21:35,539 | INFO | [2023_09.xlsx] Parsed | Total vol: 10555.69 Mn | P2P: 41.4% | P2M: 58.6% | Year: 2023, Month: 9
+2026-07-07 05:21:35,570 | INFO | [2023_10.xlsx] Parsed | Total vol: 11408.79 Mn | P2P: 41.1% | P2M: 58.9% | Year: 2023, Month: 10
+2026-07-07 05:21:35,608 | INFO | [2023_11.xlsx] Parsed | Total vol: 11235.29 Mn | P2P: 41.4% | P2M: 58.6% | Year: 2023, Month: 11
+2026-07-07 05:21:35,643 | INFO | [2023_12.xlsx] Parsed | Total vol: 12020.23 Mn | P2P: 39.6% | P2M: 60.4% | Year: 2023, Month: 12
+2026-07-07 05:21:35,679 | INFO | [2024_01.xlsx] Parsed | Total vol: 12203.02 Mn | P2P: 39.0% | P2M: 61.0% | Year: 2024, Month: 1
+2026-07-07 05:21:35,709 | INFO | [2024_02.xlsx] Parsed | Total vol: 12102.68 Mn | P2P: 39.2% | P2M: 60.8% | Year: 2024, Month: 2
+2026-07-07 05:21:35,738 | INFO | [2024_03.xlsx] Parsed | Total vol: 13440.00 Mn | P2P: 38.3% | P2M: 61.7% | Year: 2024, Month: 3
+2026-07-07 05:21:35,767 | INFO | [2024_04.xlsx] Parsed | Total vol: 13303.99 Mn | P2P: 37.6% | P2M: 62.4% | Year: 2024, Month: 4
+2026-07-07 05:21:35,800 | INFO | [2024_05.xlsx] Parsed | Total vol: 14035.84 Mn | P2P: 37.3% | P2M: 62.7% | Year: 2024, Month: 5
+2026-07-07 05:21:35,831 | INFO | [2024_06.xlsx] Parsed | Total vol: 13885.14 Mn | P2P: 37.2% | P2M: 62.8% | Year: 2024, Month: 6
+2026-07-07 05:21:35,880 | INFO | [2024_07.xlsx] Parsed | Total vol: 14435.55 Mn | P2P: 37.7% | P2M: 62.3% | Year: 2024, Month: 7
+2026-07-07 05:21:35,909 | INFO | [2024_08.xlsx] Parsed | Total vol: 14963.05 Mn | P2P: 37.6% | P2M: 62.4% | Year: 2024, Month: 8
+2026-07-07 05:21:35,943 | INFO | [2024_09.xlsx] Parsed | Total vol: 15041.75 Mn | P2P: 37.8% | P2M: 62.2% | Year: 2024, Month: 9
+2026-07-07 05:21:35,974 | INFO | [2024_10.xlsx] Parsed | Total vol: 16584.97 Mn | P2P: 37.9% | P2M: 62.1% | Year: 2024, Month: 10
+2026-07-07 05:21:36,001 | INFO | [2024_11.xlsx] Parsed | Total vol: 15482.02 Mn | P2P: 37.7% | P2M: 62.3% | Year: 2024, Month: 11
+2026-07-07 05:21:36,033 | INFO | [2024_12.xlsx] Parsed | Total vol: 16730.01 Mn | P2P: 37.9% | P2M: 62.1% | Year: 2024, Month: 12
+2026-07-07 05:21:36,065 | INFO | [2025_01.xlsx] Parsed | Total vol: 16996.00 Mn | P2P: 37.8% | P2M: 62.2% | Year: 2025, Month: 1
+2026-07-07 05:21:36,099 | INFO | [2025_02.xlsx] Parsed | Total vol: 16106.19 Mn | P2P: 37.5% | P2M: 62.5% | Year: 2025, Month: 2
+2026-07-07 05:21:36,131 | INFO | [2025_03.xlsx] Parsed | Total vol: 18301.51 Mn | P2P: 37.4% | P2M: 62.6% | Year: 2025, Month: 3
+2026-07-07 05:21:36,174 | INFO | [2025_04.xlsx] Parsed | Total vol: 17893.42 Mn | P2P: 36.5% | P2M: 63.5% | Year: 2025, Month: 4
+2026-07-07 05:21:36,214 | INFO | [2025_05.xlsx] Parsed | Total vol: 18677.46 Mn | P2P: 36.5% | P2M: 63.5% | Year: 2025, Month: 5
+2026-07-07 05:21:36,251 | INFO | [2025_06.xlsx] Parsed | Total vol: 18395.01 Mn | P2P: 36.3% | P2M: 63.7% | Year: 2025, Month: 6
+2026-07-07 05:21:36,280 | INFO | [2025_07.xlsx] Parsed | Total vol: 19467.95 Mn | P2P: 36.4% | P2M: 63.6% | Year: 2025, Month: 7
+2026-07-07 05:21:36,310 | INFO | [2025_08.xlsx] Parsed | Total vol: 20008.31 Mn | P2P: 36.5% | P2M: 63.5% | Year: 2025, Month: 8
+2026-07-07 05:21:36,405 | INFO | [2025_09.xlsx] Parsed | Total vol: 19633.43 Mn | P2P: 37.0% | P2M: 63.0% | Year: 2025, Month: 9
+2026-07-07 05:21:36,437 | INFO | [2025_10.xlsx] Parsed | Total vol: 20700.92 Mn | P2P: 37.1% | P2M: 62.9% | Year: 2025, Month: 10
+2026-07-07 05:21:36,468 | INFO | [2025_11.xlsx] Parsed | Total vol: 20466.98 Mn | P2P: 37.3% | P2M: 62.7% | Year: 2025, Month: 11
+2026-07-07 05:21:36,500 | INFO | [2025_12.xlsx] Parsed | Total vol: 21634.67 Mn | P2P: 37.7% | P2M: 62.3% | Year: 2025, Month: 12
+2026-07-07 05:21:36,728 | INFO | [2026_01.xlsx] Parsed | Total vol: 21703.44 Mn | P2P: 37.3% | P2M: 62.7% | Year: 2026, Month: 1
+2026-07-07 05:21:36,812 | INFO | [2026_02.xlsx] Parsed | Total vol: 20394.18 Mn | P2P: 37.3% | P2M: 62.7% | Year: 2026, Month: 2
+2026-07-07 05:21:36,903 | INFO | [2026_03.xlsx] Parsed | Total vol: 22641.11 Mn | P2P: 37.4% | P2M: 62.6% | Year: 2026, Month: 3
+2026-07-07 05:21:36,916 | INFO | ============================================================
+2026-07-07 05:21:36,916 | INFO | Done. Success: 51 | Skipped: 0 | Failed: 0
+2026-07-07 05:21:36,917 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-07 05:21:36,918 | INFO | ============================================================
