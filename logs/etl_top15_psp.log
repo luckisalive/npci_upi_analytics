@@ -1,0 +1,472 @@
+2026-07-07 07:46:24,095 | INFO | ============================================================
+2026-07-07 07:46:24,096 | INFO | Top15 PSP ETL started: 2026-07-07 07:46:24.096142
+2026-07-07 07:46:24,563 | INFO | ============================================================
+2026-07-07 07:46:24,563 | INFO | Done. Success: 2 | Skipped: 0 | Failed: 0
+2026-07-07 07:46:24,564 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-07 07:46:24,564 | INFO | ============================================================
+2026-07-08 02:45:34,670 | INFO | ============================================================
+2026-07-08 02:45:34,671 | INFO | Top15 PSP ETL started: 2026-07-08 02:45:34.671095
+2026-07-08 02:45:34,687 | INFO | [2022_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:45:35,263 | INFO | [2022_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,320 | INFO | [2022_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,357 | INFO | [2022_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,408 | INFO | [2022_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,455 | INFO | [2022_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,503 | INFO | [2022_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,550 | INFO | [2022_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,577 | INFO | [2022_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,602 | INFO | [2022_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,642 | INFO | [2022_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,685 | INFO | [2023_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,732 | INFO | [2023_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,778 | INFO | [2023_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,821 | INFO | [2023_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,859 | INFO | [2023_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,908 | INFO | [2023_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,950 | INFO | [2023_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:35,996 | INFO | [2023_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:36,038 | INFO | [2023_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:36,062 | INFO | [2023_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:36,102 | INFO | [2023_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:36,129 | INFO | [2023_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:36,174 | INFO | [2024_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:36,225 | INFO | [2024_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:36,270 | INFO | [2024_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:36,307 | INFO | [2024_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:36,342 | INFO | [2024_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:36,637 | INFO | [2024_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:36,904 | INFO | [2024_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,130 | INFO | [2024_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,174 | INFO | [2024_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,211 | INFO | [2024_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,247 | INFO | [2024_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,288 | INFO | [2024_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,335 | INFO | [2025_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,377 | INFO | [2025_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,413 | INFO | [2025_03.xlsx] (payee) Columns: ['Sr No', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,414 | ERROR | [2025_03.xlsx] Missing expected columns: ['Sr. No.']. Found columns: ['Sr No', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,425 | INFO | [2025_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,461 | INFO | [2025_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,538 | INFO | [2025_06.xlsx] (payee) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:37,538 | ERROR | [2025_06.xlsx] Missing expected columns: ['Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:37,580 | INFO | [2025_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,647 | INFO | [2025_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,714 | INFO | [2025_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,765 | INFO | [2025_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,808 | INFO | [2025_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,851 | INFO | [2025_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,928 | INFO | [2026_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:37,999 | INFO | [2026_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,088 | INFO | [2026_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,160 | INFO | [2026_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,248 | INFO | [2026_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,265 | INFO | [2022_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:45:38,279 | INFO | [2022_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,338 | INFO | [2022_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,374 | INFO | [2022_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,410 | INFO | [2022_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,456 | INFO | [2022_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,498 | INFO | [2022_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,535 | INFO | [2022_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,575 | INFO | [2022_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,611 | INFO | [2022_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,653 | INFO | [2022_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,696 | INFO | [2022_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,740 | INFO | [2023_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,777 | INFO | [2023_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:38,814 | INFO | [2023_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,022 | INFO | [2023_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,061 | INFO | [2023_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,104 | INFO | [2023_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,147 | INFO | [2023_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,186 | INFO | [2023_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,223 | INFO | [2023_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,259 | INFO | [2023_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,295 | INFO | [2023_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,340 | INFO | [2023_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,386 | INFO | [2024_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,421 | INFO | [2024_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,458 | INFO | [2024_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,493 | INFO | [2024_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,532 | INFO | [2024_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,773 | INFO | [2024_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,824 | INFO | [2024_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,861 | INFO | [2024_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,899 | INFO | [2024_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,934 | INFO | [2024_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:39,974 | INFO | [2024_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:40,013 | INFO | [2024_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:40,053 | INFO | [2025_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:40,089 | INFO | [2025_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:40,125 | INFO | [2025_03.xlsx] (payer) Columns: ['Sr No', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:40,125 | ERROR | [2025_03.xlsx] Missing expected columns: ['Sr. No.']. Found columns: ['Sr No', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:40,153 | INFO | [2025_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:40,202 | INFO | [2025_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:40,295 | INFO | [2025_06.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:40,296 | ERROR | [2025_06.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:40,333 | INFO | [2025_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:45:40,414 | INFO | [2025_08.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:40,414 | ERROR | [2025_08.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:40,493 | INFO | [2025_09.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:40,493 | ERROR | [2025_09.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:40,520 | INFO | [2025_10.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:40,520 | ERROR | [2025_10.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:41,176 | INFO | [2025_11.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:41,177 | ERROR | [2025_11.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:41,208 | INFO | [2025_12.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:41,208 | ERROR | [2025_12.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:41,275 | INFO | [2026_01.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:41,275 | ERROR | [2026_01.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:41,343 | INFO | [2026_02.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:41,344 | ERROR | [2026_02.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:41,422 | INFO | [2026_03.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:41,422 | ERROR | [2026_03.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:41,480 | INFO | [2026_05.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:41,481 | ERROR | [2026_05.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:45:41,482 | INFO | ============================================================
+2026-07-08 02:45:41,482 | INFO | Done. Success: 89 | Skipped: 2 | Failed: 13
+2026-07-08 02:45:41,483 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-08 02:45:41,483 | INFO | ============================================================
+2026-07-08 02:49:07,221 | INFO | ============================================================
+2026-07-08 02:49:07,221 | INFO | Top15 PSP ETL started: 2026-07-08 02:49:07.221895
+2026-07-08 02:49:07,228 | INFO | [2022_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,229 | INFO | [2022_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,229 | INFO | [2022_03.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,230 | INFO | [2022_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,231 | INFO | [2022_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,231 | INFO | [2022_06.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,232 | INFO | [2022_07.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,232 | INFO | [2022_08.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,233 | INFO | [2022_09.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,233 | INFO | [2022_10.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,234 | INFO | [2022_11.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,235 | INFO | [2023_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,235 | INFO | [2023_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,236 | INFO | [2023_03.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,237 | INFO | [2023_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,237 | INFO | [2023_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,238 | INFO | [2023_06.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,239 | INFO | [2023_07.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,240 | INFO | [2023_08.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,240 | INFO | [2023_09.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,241 | INFO | [2023_10.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,242 | INFO | [2023_11.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,242 | INFO | [2023_12.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,243 | INFO | [2024_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,243 | INFO | [2024_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,244 | INFO | [2024_03.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,245 | INFO | [2024_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,245 | INFO | [2024_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,246 | INFO | [2024_06.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,247 | INFO | [2024_07.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,247 | INFO | [2024_08.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,248 | INFO | [2024_09.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,248 | INFO | [2024_10.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,249 | INFO | [2024_11.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,250 | INFO | [2024_12.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,250 | INFO | [2025_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,251 | INFO | [2025_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,678 | INFO | [2025_03.xlsx] (payee) Columns: ['Sr No', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:49:07,679 | ERROR | [2025_03.xlsx] Missing expected columns: ['Sr. No.']. Found columns: ['Sr No', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:49:07,679 | INFO | [2025_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,680 | INFO | [2025_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,766 | INFO | [2025_06.xlsx] (payee) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:07,767 | ERROR | [2025_06.xlsx] Missing expected columns: ['Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:07,767 | INFO | [2025_07.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,768 | INFO | [2025_08.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,769 | INFO | [2025_09.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,769 | INFO | [2025_10.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,770 | INFO | [2025_11.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,771 | INFO | [2025_12.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,771 | INFO | [2026_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,772 | INFO | [2026_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,773 | INFO | [2026_03.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,773 | INFO | [2026_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,779 | INFO | [2026_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 02:49:07,780 | INFO | [2022_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,781 | INFO | [2022_02.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,782 | INFO | [2022_03.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,782 | INFO | [2022_04.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,783 | INFO | [2022_05.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,783 | INFO | [2022_06.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,784 | INFO | [2022_07.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,785 | INFO | [2022_08.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,785 | INFO | [2022_09.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,786 | INFO | [2022_10.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,787 | INFO | [2022_11.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,787 | INFO | [2022_12.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,788 | INFO | [2023_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,788 | INFO | [2023_02.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,789 | INFO | [2023_03.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,790 | INFO | [2023_04.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,791 | INFO | [2023_05.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,791 | INFO | [2023_06.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,792 | INFO | [2023_07.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,793 | INFO | [2023_08.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,793 | INFO | [2023_09.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,794 | INFO | [2023_10.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,795 | INFO | [2023_11.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,795 | INFO | [2023_12.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,796 | INFO | [2024_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,796 | INFO | [2024_02.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,797 | INFO | [2024_03.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,798 | INFO | [2024_04.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,798 | INFO | [2024_05.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,799 | INFO | [2024_06.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,800 | INFO | [2024_07.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,801 | INFO | [2024_08.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,802 | INFO | [2024_09.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,803 | INFO | [2024_10.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,803 | INFO | [2024_11.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,804 | INFO | [2024_12.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,805 | INFO | [2025_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,805 | INFO | [2025_02.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,816 | INFO | [2025_03.xlsx] (payer) Columns: ['Sr No', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:49:07,817 | ERROR | [2025_03.xlsx] Missing expected columns: ['Sr. No.']. Found columns: ['Sr No', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 02:49:07,818 | INFO | [2025_04.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,819 | INFO | [2025_05.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,877 | INFO | [2025_06.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:07,878 | ERROR | [2025_06.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:07,878 | INFO | [2025_07.xlsx] (payer) Already loaded — skipping.
+2026-07-08 02:49:07,935 | INFO | [2025_08.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:07,935 | ERROR | [2025_08.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,004 | INFO | [2025_09.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,004 | ERROR | [2025_09.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,018 | INFO | [2025_10.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,019 | ERROR | [2025_10.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,637 | INFO | [2025_11.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,638 | ERROR | [2025_11.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,658 | INFO | [2025_12.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,659 | ERROR | [2025_12.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,721 | INFO | [2026_01.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,722 | ERROR | [2026_01.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,775 | INFO | [2026_02.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,775 | ERROR | [2026_02.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,831 | INFO | [2026_03.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,831 | ERROR | [2026_03.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,895 | INFO | [2026_05.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,895 | ERROR | [2026_05.xlsx] Missing expected columns: ['Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']. Found columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 02:49:08,896 | INFO | ============================================================
+2026-07-08 02:49:08,896 | INFO | Done. Success: 0 | Skipped: 91 | Failed: 13
+2026-07-08 02:49:08,897 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-08 02:49:08,898 | INFO | ============================================================
+2026-07-08 03:28:52,178 | INFO | ============================================================
+2026-07-08 03:28:52,178 | INFO | Top15 PSP ETL started: 2026-07-08 03:28:52.178860
+2026-07-08 03:28:52,183 | INFO | [2022_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,184 | INFO | [2022_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,184 | INFO | [2022_03.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,185 | INFO | [2022_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,185 | INFO | [2022_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,186 | INFO | [2022_06.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,186 | INFO | [2022_07.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,187 | INFO | [2022_08.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,187 | INFO | [2022_09.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,188 | INFO | [2022_10.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,189 | INFO | [2022_11.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,189 | INFO | [2023_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,190 | INFO | [2023_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,190 | INFO | [2023_03.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,191 | INFO | [2023_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,191 | INFO | [2023_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,192 | INFO | [2023_06.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,193 | INFO | [2023_07.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,193 | INFO | [2023_08.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,194 | INFO | [2023_09.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,194 | INFO | [2023_10.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,195 | INFO | [2023_11.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,195 | INFO | [2023_12.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,196 | INFO | [2024_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,197 | INFO | [2024_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,198 | INFO | [2024_03.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,198 | INFO | [2024_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,199 | INFO | [2024_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,199 | INFO | [2024_06.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,200 | INFO | [2024_07.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,200 | INFO | [2024_08.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,200 | INFO | [2024_09.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,201 | INFO | [2024_10.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,202 | INFO | [2024_11.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,202 | INFO | [2024_12.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,203 | INFO | [2025_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,205 | INFO | [2025_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,684 | INFO | [2025_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 03:28:52,701 | INFO | [2025_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,702 | INFO | [2025_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,782 | INFO | [2025_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 03:28:52,797 | INFO | [2025_07.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,798 | INFO | [2025_08.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,799 | INFO | [2025_09.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,800 | INFO | [2025_10.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,800 | INFO | [2025_11.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,801 | INFO | [2025_12.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,802 | INFO | [2026_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,802 | INFO | [2026_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,803 | INFO | [2026_03.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,803 | INFO | [2026_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,804 | INFO | [2026_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:28:52,805 | INFO | [2022_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,805 | INFO | [2022_02.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,806 | INFO | [2022_03.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,806 | INFO | [2022_04.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,807 | INFO | [2022_05.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,808 | INFO | [2022_06.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,808 | INFO | [2022_07.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,809 | INFO | [2022_08.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,810 | INFO | [2022_09.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,811 | INFO | [2022_10.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,811 | INFO | [2022_11.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,812 | INFO | [2022_12.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,813 | INFO | [2023_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,813 | INFO | [2023_02.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,814 | INFO | [2023_03.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,815 | INFO | [2023_04.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,815 | INFO | [2023_05.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,816 | INFO | [2023_06.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,816 | INFO | [2023_07.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,817 | INFO | [2023_08.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,817 | INFO | [2023_09.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,818 | INFO | [2023_10.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,818 | INFO | [2023_11.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,819 | INFO | [2023_12.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,820 | INFO | [2024_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,820 | INFO | [2024_02.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,821 | INFO | [2024_03.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,821 | INFO | [2024_04.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,822 | INFO | [2024_05.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,822 | INFO | [2024_06.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,823 | INFO | [2024_07.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,823 | INFO | [2024_08.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,824 | INFO | [2024_09.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,824 | INFO | [2024_10.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,825 | INFO | [2024_11.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,825 | INFO | [2024_12.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,826 | INFO | [2025_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,827 | INFO | [2025_02.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,839 | INFO | [2025_03.xlsx] (payer) Columns: ['Sr No', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-08 03:28:52,853 | INFO | [2025_04.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,853 | INFO | [2025_05.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,910 | INFO | [2025_06.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 03:28:52,922 | INFO | [2025_07.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:28:52,977 | INFO | [2025_08.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 03:28:53,047 | INFO | [2025_09.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 03:28:53,073 | INFO | [2025_10.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 03:28:53,707 | INFO | [2025_11.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 03:28:53,741 | INFO | [2025_12.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 03:28:53,814 | INFO | [2026_01.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 03:28:53,882 | INFO | [2026_02.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 03:28:53,975 | INFO | [2026_03.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 03:28:54,040 | INFO | [2026_05.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-08 03:28:54,055 | INFO | ============================================================
+2026-07-08 03:28:54,055 | INFO | Done. Success: 13 | Skipped: 91 | Failed: 0
+2026-07-08 03:28:54,056 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-08 03:28:54,056 | INFO | ============================================================
+2026-07-08 03:34:55,753 | INFO | ============================================================
+2026-07-08 03:34:55,753 | INFO | Top15 PSP ETL started: 2026-07-08 03:34:55.753862
+2026-07-08 03:34:55,760 | INFO | [2022_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,761 | INFO | [2022_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,763 | INFO | [2022_03.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,764 | INFO | [2022_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,765 | INFO | [2022_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,766 | INFO | [2022_06.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,766 | INFO | [2022_07.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,767 | INFO | [2022_08.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,768 | INFO | [2022_09.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,769 | INFO | [2022_10.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,769 | INFO | [2022_11.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,770 | INFO | [2023_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,771 | INFO | [2023_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,771 | INFO | [2023_03.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,772 | INFO | [2023_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,773 | INFO | [2023_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,774 | INFO | [2023_06.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,775 | INFO | [2023_07.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,776 | INFO | [2023_08.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,776 | INFO | [2023_09.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,777 | INFO | [2023_10.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,778 | INFO | [2023_11.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,779 | INFO | [2023_12.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,780 | INFO | [2024_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,781 | INFO | [2024_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,782 | INFO | [2024_03.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,783 | INFO | [2024_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,783 | INFO | [2024_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,784 | INFO | [2024_06.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,785 | INFO | [2024_07.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,786 | INFO | [2024_08.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,786 | INFO | [2024_09.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,787 | INFO | [2024_10.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,787 | INFO | [2024_11.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,788 | INFO | [2024_12.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,789 | INFO | [2025_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,789 | INFO | [2025_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,790 | INFO | [2025_03.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,792 | INFO | [2025_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,793 | INFO | [2025_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,793 | INFO | [2025_06.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,794 | INFO | [2025_07.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,795 | INFO | [2025_08.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,795 | INFO | [2025_09.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,798 | INFO | [2025_10.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,798 | INFO | [2025_11.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,799 | INFO | [2025_12.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,800 | INFO | [2026_01.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,801 | INFO | [2026_02.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,802 | INFO | [2026_03.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,802 | INFO | [2026_04.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,803 | INFO | [2026_05.xlsx] (payee) Already loaded — skipping.
+2026-07-08 03:34:55,804 | INFO | [2022_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,805 | INFO | [2022_02.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,805 | INFO | [2022_03.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,806 | INFO | [2022_04.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,806 | INFO | [2022_05.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,807 | INFO | [2022_06.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,808 | INFO | [2022_07.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,809 | INFO | [2022_08.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,809 | INFO | [2022_09.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,810 | INFO | [2022_10.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,810 | INFO | [2022_11.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,811 | INFO | [2022_12.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,812 | INFO | [2023_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,813 | INFO | [2023_02.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,814 | INFO | [2023_03.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,814 | INFO | [2023_04.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,815 | INFO | [2023_05.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,816 | INFO | [2023_06.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,817 | INFO | [2023_07.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,817 | INFO | [2023_08.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,818 | INFO | [2023_09.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,819 | INFO | [2023_10.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,820 | INFO | [2023_11.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,820 | INFO | [2023_12.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,821 | INFO | [2024_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,822 | INFO | [2024_02.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,822 | INFO | [2024_03.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,823 | INFO | [2024_04.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,823 | INFO | [2024_05.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,824 | INFO | [2024_06.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,824 | INFO | [2024_07.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,825 | INFO | [2024_08.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,826 | INFO | [2024_09.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,826 | INFO | [2024_10.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,827 | INFO | [2024_11.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,828 | INFO | [2024_12.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,828 | INFO | [2025_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,829 | INFO | [2025_02.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,830 | INFO | [2025_03.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,831 | INFO | [2025_04.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,832 | INFO | [2025_05.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,833 | INFO | [2025_06.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,833 | INFO | [2025_07.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,834 | INFO | [2025_08.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,834 | INFO | [2025_09.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,835 | INFO | [2025_10.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,836 | INFO | [2025_11.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,837 | INFO | [2025_12.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,838 | INFO | [2026_01.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,838 | INFO | [2026_02.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,839 | INFO | [2026_03.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,840 | INFO | [2026_05.xlsx] (payer) Already loaded — skipping.
+2026-07-08 03:34:55,840 | INFO | ============================================================
+2026-07-08 03:34:55,841 | INFO | Done. Success: 0 | Skipped: 104 | Failed: 0
+2026-07-08 03:34:55,842 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-08 03:34:55,842 | INFO | ============================================================

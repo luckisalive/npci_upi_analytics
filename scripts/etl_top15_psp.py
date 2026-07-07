@@ -81,32 +81,81 @@ def parse_top15_psp(filepath: Path, psp_type: str, year: int, month: int) -> pd.
     except Exception as e:
         log.error(f"[{filepath.name}] Cannot open file: {e}")
         return None
+    
+    log.info(f"[{filepath.name}] ({psp_type}) Columns: {raw.columns.tolist()}")
 
     expected_label = "Payer PSP" if psp_type == "payer" else "Payee PSP"
-    required_columns = [
-        "Sr. No.",
-        expected_label,
-        "Total Volume (In Mn)",
-        "Approved %",
-        "BD %",
-        "TD %"
+    alt_label = "payer_psp" if psp_type == "payer" else "payee_psp"
+    alt_label_2 = "Payer PSP" if psp_type == "payer" else "Payee PSP"
+
+
+    required_column_sets = [
+        [
+            "Sr. No.",
+            expected_label,
+            "Total Volume (In Mn)",
+            "Approved %",
+            "BD %",
+            "TD %"
+        ],
+        [
+            "Sr. No.",
+            alt_label,
+            "total_volume_in_mn",
+            "approved_percent",
+            "bd_percent",
+            "td_percent"
+        ],
+        [
+            'Sr No', 
+            alt_label_2, 
+            'Total Volume (In Mn)', 
+            'Approved %', 
+            'BD %', 
+            'TD %'
+        ]
     ]
 
-    missing = [col for col in required_columns if col not in raw.columns]
-    if missing:
+    matching_columns = None
+    for cols in required_column_sets:
+        if all(col in raw.columns for col in cols):
+            matching_columns = cols
+            break
+
+    if matching_columns is None:
         log.error(
-            f"[{filepath.name}] Missing expected columns: {missing}. "
+            f"[{filepath.name}] Missing expected columns. "
+            f"Expected one of: {required_column_sets}. "
             f"Found columns: {raw.columns.tolist()}"
         )
         return None
 
-    df = raw.rename(columns={
-        expected_label: "psp_name",
-        "Total Volume (In Mn)": "total_volume_mn",
-        "Approved %": "approved_percent",
-        "BD %": "business_decline_percent",
-        "TD %": "technical_decline_percent"
-    })[
+    if matching_columns[1] == expected_label:
+        rename_map = {
+            expected_label: "psp_name",
+            "Total Volume (In Mn)": "total_volume_mn",
+            "Approved %": "approved_percent",
+            "BD %": "business_decline_percent",
+            "TD %": "technical_decline_percent"
+        }
+    elif matching_columns[1] == alt_label:
+        rename_map = {
+            alt_label_2: "psp_name",
+            "total_volume_in_mn": "total_volume_mn",
+            "approved_percent": "approved_percent",
+            "bd_percent": "business_decline_percent",
+            "td_percent": "technical_decline_percent"
+        }
+    else:
+        rename_map = {
+            alt_label: "psp_name",
+            "Total Volume (In Mn)": "total_volume_mn",
+            "Approved %": "approved_percent",
+            "BD %": "business_decline_percent",
+            "TD %": "technical_decline_percent"
+        }
+
+    df = raw.rename(columns=rename_map)[
         ["psp_name", "total_volume_mn", "approved_percent", "business_decline_percent", "technical_decline_percent"]
     ].copy()
 
