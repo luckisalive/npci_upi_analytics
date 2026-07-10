@@ -35,7 +35,6 @@ ORDER BY year, month, psp_type;
 -- ───────────────────────────────────────────────────────────────────
 -- 3. MISSING MONTHS — generate the expected 2022_01..2026_05 calendar
 --    and LEFT JOIN each table against it to find gaps.
---    (SQLite has no native date-range generator; recursive CTE below.)
 -- ───────────────────────────────────────────────────────────────────
 WITH RECURSIVE months(year, month) AS (
     SELECT 2022, 1
@@ -90,11 +89,7 @@ ORDER BY m.year, m.month, p.psp_type;
 
 
 -- ───────────────────────────────────────────────────────────────────
--- 4. DUPLICATE MONTH CHECK — should be impossible given the
---    already_loaded() guard in each ETL script, but confirm directly
---    rather than trusting the guard blindly (per the 2024_06/07
---    duplicate-file incident in DECISIONS.md, which was a DIFFERENT
---    failure mode — same data under two filenames, not a guard bypass).
+-- 4. DUPLICATE MONTH CHECK 
 -- ───────────────────────────────────────────────────────────────────
 SELECT year, month, COUNT(*) AS n
 FROM stg_p2p_p2m
@@ -117,10 +112,6 @@ HAVING COUNT(*) > 1;
 
 -- ───────────────────────────────────────────────────────────────────
 -- 5. RE-CHECK FOR THE 2024_06/2024_07 DUPLICATE-VALUE PATTERN
---    (DECISIONS.md: two consecutive months had identical total_volume_mn
---    due to a duplicate raw download; fixed, but worth confirming the
---    fix held and no OTHER pair of consecutive months shows the same
---    symptom elsewhere in the series.)
 -- ───────────────────────────────────────────────────────────────────
 SELECT
     a.year AS year1, a.month AS month1, a.total_volume_mn AS vol1,
@@ -131,7 +122,6 @@ JOIN stg_p2p_p2m b
 WHERE a.total_volume_mn = b.total_volume_mn
 ORDER BY a.year, a.month;
 -- Expect: empty. Any row here = two consecutive months with byte-identical
--- total volume, which is the exact symptom of the 2024_06/07 incident.
 
 
 -- ───────────────────────────────────────────────────────────────────
@@ -158,8 +148,6 @@ GROUP BY year, month, psp_type;
 
 -- ───────────────────────────────────────────────────────────────────
 -- 7. MARKET SHARE SUMS TO ~100% PER MONTH (stg_upi_apps)
---    market_share_pct is computed per-file in the ETL, so this
---    confirms no file-level total_vol=0 edge case slipped through.
 -- ───────────────────────────────────────────────────────────────────
 SELECT year, month, ROUND(SUM(market_share_pct), 2) AS share_sum
 FROM stg_upi_apps
