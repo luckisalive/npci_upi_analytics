@@ -178,3 +178,235 @@
 2026-07-03 05:01:00,501 | INFO | Done. Success: 51 | Skipped: 0 | Failed: 0
 2026-07-03 05:01:00,501 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\projectNew\ecosystemStatistics\staging\npci_upi.db
 2026-07-03 05:01:00,502 | INFO | ============================================================
+2026-07-10 21:08:11,102 | INFO | ============================================================
+2026-07-10 21:08:11,103 | INFO | UPI Apps ETL started: 2026-07-10 21:08:11.103172
+2026-07-10 21:08:11,104 | INFO | Files found: 51
+2026-07-10 21:08:11,117 | INFO | [2022_01.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,120 | INFO | [2022_02.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,121 | INFO | [2022_03.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,122 | INFO | [2022_04.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,123 | INFO | [2022_05.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,124 | INFO | [2022_06.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,125 | INFO | [2022_07.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,126 | INFO | [2022_08.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,127 | INFO | [2022_09.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,128 | INFO | [2022_10.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,129 | INFO | [2022_11.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,130 | INFO | [2022_12.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,132 | INFO | [2023_01.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,133 | INFO | [2023_02.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,134 | INFO | [2023_03.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,135 | INFO | [2023_04.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,137 | INFO | [2023_05.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,138 | INFO | [2023_06.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,139 | INFO | [2023_07.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,140 | INFO | [2023_08.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,140 | INFO | [2023_09.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,142 | INFO | [2023_10.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,142 | INFO | [2023_11.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,143 | INFO | [2023_12.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,144 | INFO | [2024_01.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,145 | INFO | [2024_02.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,146 | INFO | [2024_03.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,147 | INFO | [2024_04.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,149 | INFO | [2024_05.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,150 | INFO | [2024_06.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,151 | INFO | [2024_07.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,152 | INFO | [2024_08.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,153 | INFO | [2024_09.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,154 | INFO | [2024_10.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,155 | INFO | [2024_11.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,156 | INFO | [2024_12.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,157 | INFO | [2025_01.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,158 | INFO | [2025_02.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,159 | INFO | [2025_03.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,160 | INFO | [2025_04.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,161 | INFO | [2025_05.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,162 | INFO | [2025_06.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,163 | INFO | [2025_07.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,166 | INFO | [2025_08.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,168 | INFO | [2025_09.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,169 | INFO | [2025_10.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,170 | INFO | [2025_11.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,172 | INFO | [2025_12.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,173 | INFO | [2026_01.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,174 | INFO | [2026_02.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,175 | INFO | [2026_04.xlsx] Already loaded — skipping.
+2026-07-10 21:08:11,176 | INFO | ============================================================
+2026-07-10 21:08:11,176 | INFO | Done. Success: 0 | Skipped: 51 | Failed: 0
+2026-07-10 21:08:11,177 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-10 21:08:11,177 | INFO | ============================================================
+2026-07-10 21:15:01,547 | INFO | ============================================================
+2026-07-10 21:15:01,548 | INFO | UPI Apps ETL started: 2026-07-10 21:15:01.548521
+2026-07-10 21:15:01,550 | INFO | Files found: 51
+2026-07-10 21:15:01,556 | INFO | [2022_01.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,557 | INFO | [2022_02.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,562 | INFO | [2022_03.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,564 | INFO | [2022_04.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,565 | INFO | [2022_05.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,567 | INFO | [2022_06.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,568 | INFO | [2022_07.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,570 | INFO | [2022_08.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,571 | INFO | [2022_09.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,572 | INFO | [2022_10.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,573 | INFO | [2022_11.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,574 | INFO | [2022_12.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,575 | INFO | [2023_01.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,576 | INFO | [2023_02.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,577 | INFO | [2023_03.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,578 | INFO | [2023_04.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,579 | INFO | [2023_05.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,580 | INFO | [2023_06.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,582 | INFO | [2023_07.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,586 | INFO | [2023_08.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,587 | INFO | [2023_09.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,589 | INFO | [2023_10.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,590 | INFO | [2023_11.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,591 | INFO | [2023_12.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,592 | INFO | [2024_01.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,593 | INFO | [2024_02.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,594 | INFO | [2024_03.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,595 | INFO | [2024_04.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,595 | INFO | [2024_05.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,597 | INFO | [2024_06.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,598 | INFO | [2024_07.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,599 | INFO | [2024_08.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,600 | INFO | [2024_09.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,602 | INFO | [2024_10.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,603 | INFO | [2024_11.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,604 | INFO | [2024_12.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,606 | INFO | [2025_01.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,607 | INFO | [2025_02.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,608 | INFO | [2025_03.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,609 | INFO | [2025_04.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,610 | INFO | [2025_05.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,611 | INFO | [2025_06.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,612 | INFO | [2025_07.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,613 | INFO | [2025_08.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,615 | INFO | [2025_09.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,616 | INFO | [2025_10.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,617 | INFO | [2025_11.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,618 | INFO | [2025_12.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,619 | INFO | [2026_01.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,621 | INFO | [2026_02.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,622 | INFO | [2026_04.xlsx] Already loaded — skipping.
+2026-07-10 21:15:01,622 | INFO | ============================================================
+2026-07-10 21:15:01,622 | INFO | Done. Success: 0 | Skipped: 51 | Failed: 0
+2026-07-10 21:15:01,623 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-10 21:15:01,623 | INFO | ============================================================
+2026-07-10 21:16:48,411 | INFO | ============================================================
+2026-07-10 21:16:48,412 | INFO | UPI Apps ETL started: 2026-07-10 21:16:48.412296
+2026-07-10 21:16:48,413 | INFO | Files found: 51
+2026-07-10 21:16:48,416 | INFO | [2022_01.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,417 | INFO | [2022_02.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,418 | INFO | [2022_03.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,419 | INFO | [2022_04.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,420 | INFO | [2022_05.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,421 | INFO | [2022_06.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,422 | INFO | [2022_07.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,423 | INFO | [2022_08.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,424 | INFO | [2022_09.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,425 | INFO | [2022_10.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,426 | INFO | [2022_11.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,427 | INFO | [2022_12.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,428 | INFO | [2023_01.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,429 | INFO | [2023_02.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,430 | INFO | [2023_03.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,431 | INFO | [2023_04.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,432 | INFO | [2023_05.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,434 | INFO | [2023_06.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,435 | INFO | [2023_07.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,435 | INFO | [2023_08.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,436 | INFO | [2023_09.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,437 | INFO | [2023_10.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,438 | INFO | [2023_11.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,439 | INFO | [2023_12.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,440 | INFO | [2024_01.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,441 | INFO | [2024_02.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,442 | INFO | [2024_03.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,443 | INFO | [2024_04.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,444 | INFO | [2024_05.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,445 | INFO | [2024_06.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,446 | INFO | [2024_07.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,448 | INFO | [2024_08.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,449 | INFO | [2024_09.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,449 | INFO | [2024_10.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,450 | INFO | [2024_11.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,452 | INFO | [2024_12.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,453 | INFO | [2025_01.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,454 | INFO | [2025_02.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,455 | INFO | [2025_03.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,456 | INFO | [2025_04.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,457 | INFO | [2025_05.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,458 | INFO | [2025_06.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,459 | INFO | [2025_07.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,460 | INFO | [2025_08.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,461 | INFO | [2025_09.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,461 | INFO | [2025_10.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,462 | INFO | [2025_11.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,463 | INFO | [2025_12.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,464 | INFO | [2026_01.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,464 | INFO | [2026_02.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,465 | INFO | [2026_04.xlsx] Already loaded — skipping.
+2026-07-10 21:16:48,466 | INFO | ============================================================
+2026-07-10 21:16:48,466 | INFO | Done. Success: 0 | Skipped: 51 | Failed: 0
+2026-07-10 21:16:48,467 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-10 21:16:48,467 | INFO | ============================================================
+2026-07-10 21:23:44,106 | INFO | ============================================================
+2026-07-10 21:23:44,106 | INFO | UPI Apps ETL started: 2026-07-10 21:23:44.106832
+2026-07-10 21:23:44,108 | INFO | Files found: 51
+2026-07-10 21:23:44,111 | INFO | [2022_01.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,112 | INFO | [2022_02.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,114 | INFO | [2022_03.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,114 | INFO | [2022_04.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,116 | INFO | [2022_05.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,116 | INFO | [2022_06.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,117 | INFO | [2022_07.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,118 | INFO | [2022_08.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,119 | INFO | [2022_09.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,120 | INFO | [2022_10.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,122 | INFO | [2022_11.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,123 | INFO | [2022_12.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,124 | INFO | [2023_01.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,125 | INFO | [2023_02.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,127 | INFO | [2023_03.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,128 | INFO | [2023_04.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,129 | INFO | [2023_05.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,129 | INFO | [2023_06.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,130 | INFO | [2023_07.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,131 | INFO | [2023_08.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,132 | INFO | [2023_09.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,133 | INFO | [2023_10.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,134 | INFO | [2023_11.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,135 | INFO | [2023_12.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,136 | INFO | [2024_01.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,138 | INFO | [2024_02.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,789 | INFO | [2024_03.xlsx] Parsed 66 app rows | Total vol: 13460.81 Mn | Year: 2024, Month: 3
+2026-07-10 21:23:44,802 | INFO | [2024_04.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,803 | INFO | [2024_05.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,804 | INFO | [2024_06.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,806 | INFO | [2024_07.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,807 | INFO | [2024_08.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,809 | INFO | [2024_09.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,810 | INFO | [2024_10.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,811 | INFO | [2024_11.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,812 | INFO | [2024_12.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,813 | INFO | [2025_01.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,814 | INFO | [2025_02.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,815 | INFO | [2025_03.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,817 | INFO | [2025_04.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,818 | INFO | [2025_05.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,819 | INFO | [2025_06.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,820 | INFO | [2025_07.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,821 | INFO | [2025_08.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,823 | INFO | [2025_09.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,824 | INFO | [2025_10.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,825 | INFO | [2025_11.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,826 | INFO | [2025_12.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,827 | INFO | [2026_01.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,828 | INFO | [2026_02.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,829 | INFO | [2026_04.xlsx] Already loaded — skipping.
+2026-07-10 21:23:44,830 | INFO | ============================================================
+2026-07-10 21:23:44,830 | INFO | Done. Success: 1 | Skipped: 50 | Failed: 0
+2026-07-10 21:23:44,831 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-10 21:23:44,831 | INFO | ============================================================
