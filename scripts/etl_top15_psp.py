@@ -54,16 +54,22 @@ def extract_date_from_filename(filepath: Path) -> tuple[int, int]:
     return year, month
 
 
-def clean_numeric(series: pd.Series) -> pd.Series:
+def clean_numeric(series: pd.Series, is_percent: bool = False) -> pd.Series:
     if pd.api.types.is_numeric_dtype(series):
-        return series
-    return (
-        series.astype(str)
-        .str.replace(",", "", regex=False)
-        .str.strip()
-        .str.extract(r"^([\d.]+)")[0]
-        .pipe(pd.to_numeric, errors="coerce")
-    )
+        s = series.astype(float)
+        if is_percent:
+            return s * 100
+        return s
+
+    s_str = series.astype(str).str.strip()
+    had_percent_sign = s_str.str.contains("%", regex=False)
+    s_str = s_str.str.replace(",", "", regex=False).str.replace("%", "", regex=False)
+    s = pd.to_numeric(s_str, errors="coerce")
+
+    if is_percent:
+        needs_scaling = (~had_percent_sign) & s.notna() & (s.abs() <= 1)
+        s = s.where(~needs_scaling, s * 100)
+    return s
 
 
 def clean_psp_name(series: pd.Series) -> pd.Series:
@@ -167,7 +173,7 @@ def parse_top15_psp(filepath: Path, psp_type: str, year: int, month: int) -> pd.
         "technical_decline_percent"
     ]
     for col in numeric_cols:
-        df[col] = clean_numeric(df[col])
+        df[col] = clean_numeric(df[col], is_percent="_percent" in col)
 
     df = df[
         df["psp_name"].notna() &
