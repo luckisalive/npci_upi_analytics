@@ -244,32 +244,33 @@ def run():
     log.info(f"Files found: {len(files)}")
 
     conn = sqlite3.connect(DB_PATH)
-    create_table_if_not_exists(conn)
+    try:
+        create_table_if_not_exists(conn)
 
-    success, skipped, failed = 0, 0, 0
+        success, skipped, failed = 0, 0, 0
+        for filepath in files:
+            try:
+                year, month = extract_date_from_filename(filepath)
+            except ValueError as e:
+                log.error(str(e))
+                failed += 1
+                continue
 
-    for filepath in files:
-        try:
-            year, month = extract_date_from_filename(filepath)
-        except ValueError as e:
-            log.error(str(e))
-            failed += 1
-            continue
+            if already_loaded(conn, year, month):
+                log.info(f"[{filepath.name}] Already loaded — skipping.")
+                skipped += 1
+                continue
 
-        if already_loaded(conn, year, month):
-            log.info(f"[{filepath.name}] Already loaded — skipping.")
-            skipped += 1
-            continue
+            df = parse_p2p_p2m(filepath, year, month)
 
-        df = parse_p2p_p2m(filepath, year, month)
+            if df is not None:
+                load_to_sqlite(df, conn)
+                success += 1
+            else:
+                failed += 1
 
-        if df is not None:
-            load_to_sqlite(df, conn)
-            success += 1
-        else:
-            failed += 1
-
-    conn.close()
+    finally:
+        conn.close()
 
     log.info("=" * 60)
     log.info(f"Done. Success: {success} | Skipped: {skipped} | Failed: {failed}")
