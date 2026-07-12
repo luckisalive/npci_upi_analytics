@@ -181,8 +181,8 @@ def parse_p2p_p2m(filepath: Path, year: int, month: int) -> pd.DataFrame | None:
     log.info(
         f"[{filepath.name}] Parsed | "
         f"Total vol: {total_vol:.2f} Mn | "
-        f"P2P: {df['p2p_share_pct'].iloc[0]:.1f}% | "
-        f"P2M: {df['p2m_share_pct'].iloc[0]:.1f}% | "
+        f"P2P: {df['p2p_share_pct'].iloc[0]:.2f}% | "
+        f"P2M: {df['p2m_share_pct'].iloc[0]:.2f}% | "
         f"Year: {year}, Month: {month}"
     )
 
