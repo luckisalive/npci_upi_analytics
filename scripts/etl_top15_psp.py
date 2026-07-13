@@ -71,15 +71,52 @@ def clean_numeric(series: pd.Series, is_percent: bool = False) -> pd.Series:
         s = s.where(~needs_scaling, s * 100)
     return s
 
+PSP_ACRONYM_FIXES = {
+    "Hdfc": "HDFC",
+    "Icici": "ICICI",
+    "Idfc": "IDFC",
+    "Rbl": "RBL",
+    "Bhim": "BHIM",
+    "Jio": "JIO",
+}
+
+PSP_MIXED_CASE_FIXES = {
+    "Indusind": "IndusInd",
+    "Mobikwik": "MobiKwik",
+}
+
+CORPORATE_SUFFIX_PATTERN = re.compile(
+    r"\s*,?\s*(Private\s+Limited|Pvt\.?\s*(?:-\s*)?Ltd\.?|Pvt\.?\s*(?:-\s*)?Limited|Pvt\.?|Limited|Ltd\.?)\s*$",
+    flags=re.IGNORECASE,
+)
+
+PSP_NAME_OVERRIDES = {
+    "India Post Payment Bank": "India Post Payments Bank",
+    "Fampay Ppi": "Fampay (Ppi)",
+    "North East Small Finance Bank Acquirer": "Slice Small Finance Bank",
+    "North East Small Finance Bank": "Slice Small Finance Bank",
+    "Slice Small Finance Bank Limited(North East Small Finance Bank Limited)": "Slice Small Finance Bank",
+    "Slice Small Finance Bank Acquirer": "Slice Small Finance Bank",
+    "IDFC Bank": "IDFC First Bank",
+    "Npci BHIM Services Ltd (Nbsl)": "BHIM",
+}
 
 def clean_psp_name(series: pd.Series) -> pd.Series:
-    return (
+    s = (
         series.astype(str)
         .str.strip()
         .str.replace(r"[#*]+$", "", regex=True)
         .str.strip()
+        .str.title()
     )
 
+    s = s.str.replace(CORPORATE_SUFFIX_PATTERN, "", regex=True).str.strip()
+
+    for wrong, right in {**PSP_ACRONYM_FIXES, **PSP_MIXED_CASE_FIXES}.items():
+        s = s.str.replace(rf"\b{wrong}\b", right, regex=True)
+    s = s.replace(PSP_NAME_OVERRIDES)
+
+    return s.str.strip()
 
 def parse_top15_psp(filepath: Path, psp_type: str, year: int, month: int) -> pd.DataFrame | None:
     try:

@@ -690,3 +690,871 @@
 2026-07-12 10:32:43,703 | INFO | Done. Success: 104 | Skipped: 0 | Failed: 0
 2026-07-12 10:32:43,704 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
 2026-07-12 10:32:43,704 | INFO | ============================================================
+2026-07-12 23:46:00,868 | INFO | ============================================================
+2026-07-12 23:46:00,869 | INFO | Top15 PSP ETL started: 2026-07-12 23:46:00.869284
+2026-07-12 23:46:01,365 | INFO | [2022_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,409 | INFO | [2022_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,443 | INFO | [2022_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,481 | INFO | [2022_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,521 | INFO | [2022_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,556 | INFO | [2022_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,586 | INFO | [2022_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,616 | INFO | [2022_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,644 | INFO | [2022_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,671 | INFO | [2022_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,698 | INFO | [2022_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,726 | INFO | [2023_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,753 | INFO | [2023_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,783 | INFO | [2023_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,812 | INFO | [2023_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,842 | INFO | [2023_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,872 | INFO | [2023_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,905 | INFO | [2023_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,947 | INFO | [2023_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:01,977 | INFO | [2023_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:02,013 | INFO | [2023_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:02,050 | INFO | [2023_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:02,086 | INFO | [2023_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:02,117 | INFO | [2024_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:02,147 | INFO | [2024_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:02,180 | INFO | [2024_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:02,207 | INFO | [2024_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:02,234 | INFO | [2024_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:02,492 | INFO | [2024_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:02,782 | INFO | [2024_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,009 | INFO | [2024_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,046 | INFO | [2024_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,079 | INFO | [2024_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,107 | INFO | [2024_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,136 | INFO | [2024_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,167 | INFO | [2025_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,196 | INFO | [2025_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,224 | INFO | [2025_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,250 | INFO | [2025_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,275 | INFO | [2025_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,346 | INFO | [2025_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,383 | INFO | [2025_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,470 | INFO | [2025_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,568 | INFO | [2025_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,602 | INFO | [2025_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,634 | INFO | [2025_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,665 | INFO | [2025_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,751 | INFO | [2026_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,832 | INFO | [2026_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,905 | INFO | [2026_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:03,993 | INFO | [2026_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,087 | INFO | [2026_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,135 | INFO | [2022_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,173 | INFO | [2022_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,250 | INFO | [2022_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,284 | INFO | [2022_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,318 | INFO | [2022_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,356 | INFO | [2022_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,388 | INFO | [2022_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,429 | INFO | [2022_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,459 | INFO | [2022_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,488 | INFO | [2022_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,516 | INFO | [2022_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,543 | INFO | [2022_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,584 | INFO | [2023_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,619 | INFO | [2023_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,649 | INFO | [2023_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,889 | INFO | [2023_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,927 | INFO | [2023_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,964 | INFO | [2023_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:04,989 | INFO | [2023_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,018 | INFO | [2023_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,045 | INFO | [2023_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,074 | INFO | [2023_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,101 | INFO | [2023_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,133 | INFO | [2023_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,163 | INFO | [2024_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,198 | INFO | [2024_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,233 | INFO | [2024_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,262 | INFO | [2024_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,290 | INFO | [2024_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,531 | INFO | [2024_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,568 | INFO | [2024_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,594 | INFO | [2024_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,623 | INFO | [2024_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,650 | INFO | [2024_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,678 | INFO | [2024_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,713 | INFO | [2024_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,746 | INFO | [2025_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,774 | INFO | [2025_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,804 | INFO | [2025_03.xlsx] (payer) Columns: ['Sr No', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,830 | INFO | [2025_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,858 | INFO | [2025_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:05,943 | INFO | [2025_06.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-12 23:46:05,994 | INFO | [2025_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-12 23:46:06,100 | INFO | [2025_08.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-12 23:46:06,187 | INFO | [2025_09.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-12 23:46:06,220 | INFO | [2025_10.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-12 23:46:06,921 | INFO | [2025_11.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-12 23:46:06,972 | INFO | [2025_12.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-12 23:46:07,057 | INFO | [2026_01.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-12 23:46:07,138 | INFO | [2026_02.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-12 23:46:07,224 | INFO | [2026_03.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-12 23:46:07,291 | INFO | [2026_05.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-12 23:46:07,313 | INFO | ============================================================
+2026-07-12 23:46:07,314 | INFO | Done. Success: 104 | Skipped: 0 | Failed: 0
+2026-07-12 23:46:07,315 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-12 23:46:07,315 | INFO | ============================================================
+2026-07-13 06:00:44,267 | INFO | ============================================================
+2026-07-13 06:00:44,268 | INFO | Top15 PSP ETL started: 2026-07-13 06:00:44.268139
+2026-07-13 06:00:44,753 | INFO | [2022_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:44,760 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:44,790 | INFO | [2022_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:44,797 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:44,825 | INFO | [2022_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:44,830 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:44,852 | INFO | [2022_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:44,857 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:44,881 | INFO | [2022_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:44,890 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:44,926 | INFO | [2022_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:44,932 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:44,961 | INFO | [2022_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:44,971 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:44,993 | INFO | [2022_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:44,998 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,019 | INFO | [2022_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,023 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,048 | INFO | [2022_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,052 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,075 | INFO | [2022_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,079 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,104 | INFO | [2023_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,109 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,132 | INFO | [2023_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,137 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,162 | INFO | [2023_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,168 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,191 | INFO | [2023_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,195 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,222 | INFO | [2023_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,226 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,249 | INFO | [2023_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,254 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,278 | INFO | [2023_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,282 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,307 | INFO | [2023_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,312 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,335 | INFO | [2023_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,340 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,364 | INFO | [2023_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,368 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,394 | INFO | [2023_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,399 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,424 | INFO | [2023_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,429 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,457 | INFO | [2024_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,461 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,483 | INFO | [2024_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,488 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,513 | INFO | [2024_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,517 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,540 | INFO | [2024_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,545 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,568 | INFO | [2024_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,574 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:45,776 | INFO | [2024_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:45,780 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,016 | INFO | [2024_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,020 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,257 | INFO | [2024_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,261 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,290 | INFO | [2024_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,294 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,317 | INFO | [2024_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,321 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,343 | INFO | [2024_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,347 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,367 | INFO | [2024_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,372 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,394 | INFO | [2025_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,398 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,419 | INFO | [2025_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,424 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,447 | INFO | [2025_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,451 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,473 | INFO | [2025_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,478 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,500 | INFO | [2025_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,504 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,576 | INFO | [2025_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,581 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,611 | INFO | [2025_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,615 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,680 | INFO | [2025_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,684 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,771 | INFO | [2025_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,775 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,810 | INFO | [2025_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,815 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,844 | INFO | [2025_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,848 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,873 | INFO | [2025_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,877 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:46,943 | INFO | [2026_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:46,947 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:47,043 | INFO | [2026_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,047 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:47,129 | INFO | [2026_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,133 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:47,193 | INFO | [2026_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,197 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:47,261 | INFO | [2026_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,266 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:47,297 | INFO | [2022_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,301 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,325 | INFO | [2022_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,330 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,384 | INFO | [2022_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,390 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,411 | INFO | [2022_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,416 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,437 | INFO | [2022_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,442 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,464 | INFO | [2022_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,468 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,489 | INFO | [2022_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,494 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,518 | INFO | [2022_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,523 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,548 | INFO | [2022_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,553 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,580 | INFO | [2022_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,584 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,608 | INFO | [2022_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,612 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,635 | INFO | [2022_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,639 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,662 | INFO | [2023_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,666 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,689 | INFO | [2023_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,694 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,715 | INFO | [2023_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,719 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,930 | INFO | [2023_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,959 | INFO | [2023_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,962 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:47,983 | INFO | [2023_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:47,988 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:48,010 | INFO | [2023_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,014 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:48,037 | INFO | [2023_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,042 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:48,068 | INFO | [2023_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,073 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:48,098 | INFO | [2023_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,103 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:48,126 | INFO | [2023_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,130 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:48,153 | INFO | [2023_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,157 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:48,182 | INFO | [2024_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,185 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:48,208 | INFO | [2024_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,212 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:48,234 | INFO | [2024_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,238 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:48,261 | INFO | [2024_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,266 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:48,287 | INFO | [2024_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,292 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi'}
+2026-07-13 06:00:48,517 | INFO | [2024_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,521 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:48,547 | INFO | [2024_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,552 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:48,578 | INFO | [2024_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,582 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:48,605 | INFO | [2024_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,610 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:48,634 | INFO | [2024_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,638 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:48,661 | INFO | [2024_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,666 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:48,687 | INFO | [2024_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,691 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:48,713 | INFO | [2025_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,718 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:48,738 | INFO | [2025_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,743 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:48,765 | INFO | [2025_03.xlsx] (payer) Columns: ['Sr No', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,769 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:48,792 | INFO | [2025_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,796 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:48,821 | INFO | [2025_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,827 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:48,912 | INFO | [2025_06.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:00:48,917 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:48,949 | INFO | [2025_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:00:48,953 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:49,015 | INFO | [2025_08.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:00:49,019 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:49,088 | INFO | [2025_09.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:00:49,094 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:49,124 | INFO | [2025_10.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:00:49,129 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:49,787 | INFO | [2025_11.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:00:49,791 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:49,823 | INFO | [2025_12.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:00:49,828 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:49,897 | INFO | [2026_01.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:00:49,901 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:49,979 | INFO | [2026_02.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:00:49,983 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:50,058 | INFO | [2026_03.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:00:50,063 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:50,124 | INFO | [2026_05.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:00:50,129 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank'}
+2026-07-13 06:00:50,143 | INFO | ============================================================
+2026-07-13 06:00:50,143 | INFO | Done. Success: 104 | Skipped: 0 | Failed: 0
+2026-07-13 06:00:50,144 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-13 06:00:50,145 | INFO | ============================================================
+2026-07-13 06:42:34,222 | INFO | ============================================================
+2026-07-13 06:42:34,223 | INFO | Top15 PSP ETL started: 2026-07-13 06:42:34.223263
+2026-07-13 06:42:34,626 | INFO | [2022_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:34,632 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:34,656 | INFO | [2022_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:34,661 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:34,684 | INFO | [2022_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:34,688 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:34,713 | INFO | [2022_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:34,718 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:34,747 | INFO | [2022_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:34,753 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:34,781 | INFO | [2022_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:34,786 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:34,817 | INFO | [2022_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:34,822 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:34,873 | INFO | [2022_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:34,879 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:34,906 | INFO | [2022_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:34,910 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:34,939 | INFO | [2022_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:34,944 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:34,968 | INFO | [2022_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:34,972 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:34,998 | INFO | [2023_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,003 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,028 | INFO | [2023_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,032 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,061 | INFO | [2023_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,065 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,089 | INFO | [2023_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,093 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,116 | INFO | [2023_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,120 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,145 | INFO | [2023_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,150 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,173 | INFO | [2023_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,177 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,203 | INFO | [2023_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,207 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,231 | INFO | [2023_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,237 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,266 | INFO | [2023_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,272 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,301 | INFO | [2023_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,305 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,335 | INFO | [2023_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,339 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,364 | INFO | [2024_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,370 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,399 | INFO | [2024_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,403 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,428 | INFO | [2024_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,434 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,459 | INFO | [2024_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,463 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,488 | INFO | [2024_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,491 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,713 | INFO | [2024_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,718 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:35,949 | INFO | [2024_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:35,953 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,170 | INFO | [2024_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,174 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,200 | INFO | [2024_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,205 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,228 | INFO | [2024_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,232 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,257 | INFO | [2024_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,261 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,284 | INFO | [2024_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,289 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,316 | INFO | [2025_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,321 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,347 | INFO | [2025_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,352 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,384 | INFO | [2025_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,389 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,412 | INFO | [2025_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,416 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,442 | INFO | [2025_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,446 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,521 | INFO | [2025_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,526 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,564 | INFO | [2025_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,569 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,651 | INFO | [2025_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,657 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,756 | INFO | [2025_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,759 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,794 | INFO | [2025_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,798 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,830 | INFO | [2025_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,835 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,864 | INFO | [2025_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,868 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:36,956 | INFO | [2026_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:36,960 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,036 | INFO | [2026_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,041 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,111 | INFO | [2026_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,115 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,193 | INFO | [2026_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,199 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,273 | INFO | [2026_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,277 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,307 | INFO | [2022_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,312 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,337 | INFO | [2022_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,341 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,387 | INFO | [2022_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,392 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,415 | INFO | [2022_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,420 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,445 | INFO | [2022_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,449 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,478 | INFO | [2022_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,482 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,505 | INFO | [2022_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,511 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,535 | INFO | [2022_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,540 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,565 | INFO | [2022_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,570 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,593 | INFO | [2022_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,597 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,619 | INFO | [2022_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,624 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,647 | INFO | [2022_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,651 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,675 | INFO | [2023_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,679 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,710 | INFO | [2023_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,714 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,744 | INFO | [2023_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,749 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:37,963 | INFO | [2023_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:37,967 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'North East Small Finance Bank', 'North East Small Finance Bank Acquirer', 'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Slice Small Finance Bank Acquirer'}
+2026-07-13 06:42:38,004 | INFO | [2023_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,010 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,041 | INFO | [2023_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,046 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,076 | INFO | [2023_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,082 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,105 | INFO | [2023_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,109 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,132 | INFO | [2023_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,136 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,162 | INFO | [2023_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,166 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,190 | INFO | [2023_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,194 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,216 | INFO | [2023_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,222 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,249 | INFO | [2024_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,253 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,279 | INFO | [2024_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,283 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,307 | INFO | [2024_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,313 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,343 | INFO | [2024_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,347 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,372 | INFO | [2024_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,376 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,587 | INFO | [2024_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,591 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,617 | INFO | [2024_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,621 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,644 | INFO | [2024_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,648 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,671 | INFO | [2024_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,676 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,699 | INFO | [2024_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,703 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,728 | INFO | [2024_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,732 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,759 | INFO | [2024_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,763 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,793 | INFO | [2025_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,798 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,826 | INFO | [2025_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,831 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer'}
+2026-07-13 06:42:38,861 | INFO | [2025_03.xlsx] (payer) Columns: ['Sr No', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,866 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer'}
+2026-07-13 06:42:38,894 | INFO | [2025_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,898 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,921 | INFO | [2025_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:38,925 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:38,994 | INFO | [2025_06.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:42:38,998 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:39,032 | INFO | [2025_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 06:42:39,037 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:39,116 | INFO | [2025_08.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:42:39,120 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:39,188 | INFO | [2025_09.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:42:39,193 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:39,220 | INFO | [2025_10.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:42:39,224 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:39,870 | INFO | [2025_11.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:42:39,874 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:39,913 | INFO | [2025_12.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:42:39,917 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:40,003 | INFO | [2026_01.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:42:40,007 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:40,086 | INFO | [2026_02.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:42:40,091 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer'}
+2026-07-13 06:42:40,163 | INFO | [2026_03.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:42:40,167 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Slice Small Finance Bank Limited(North East Small Finance Bank Limited)', 'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer'}
+2026-07-13 06:42:40,238 | INFO | [2026_05.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 06:42:40,243 | WARNING | PSP_NAME_OVERRIDES keys never matched: {'Fampay Ppi', 'India Post Payment Bank', 'Slice Small Finance Bank Acquirer', 'North East Small Finance Bank Acquirer', 'North East Small Finance Bank'}
+2026-07-13 06:42:40,259 | INFO | ============================================================
+2026-07-13 06:42:40,260 | INFO | Done. Success: 104 | Skipped: 0 | Failed: 0
+2026-07-13 06:42:40,260 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-13 06:42:40,261 | INFO | ============================================================
+2026-07-13 07:18:37,398 | INFO | ============================================================
+2026-07-13 07:18:37,399 | INFO | Top15 PSP ETL started: 2026-07-13 07:18:37.399347
+2026-07-13 07:18:37,887 | INFO | [2022_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:37,928 | INFO | [2022_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:37,962 | INFO | [2022_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:37,998 | INFO | [2022_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,032 | INFO | [2022_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,061 | INFO | [2022_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,091 | INFO | [2022_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,124 | INFO | [2022_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,161 | INFO | [2022_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,194 | INFO | [2022_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,225 | INFO | [2022_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,255 | INFO | [2023_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,286 | INFO | [2023_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,317 | INFO | [2023_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,348 | INFO | [2023_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,379 | INFO | [2023_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,410 | INFO | [2023_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,447 | INFO | [2023_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,480 | INFO | [2023_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,511 | INFO | [2023_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,538 | INFO | [2023_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,565 | INFO | [2023_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,592 | INFO | [2023_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,622 | INFO | [2024_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,650 | INFO | [2024_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,681 | INFO | [2024_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,710 | INFO | [2024_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,741 | INFO | [2024_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:38,972 | INFO | [2024_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:39,238 | INFO | [2024_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:39,561 | INFO | [2024_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:39,608 | INFO | [2024_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:39,655 | INFO | [2024_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:39,699 | INFO | [2024_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:39,737 | INFO | [2024_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:39,773 | INFO | [2025_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:39,803 | INFO | [2025_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:39,840 | INFO | [2025_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:39,873 | INFO | [2025_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:39,914 | INFO | [2025_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:40,046 | INFO | [2025_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:40,115 | INFO | [2025_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:40,270 | INFO | [2025_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:40,398 | INFO | [2025_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:40,449 | INFO | [2025_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:40,504 | INFO | [2025_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:40,556 | INFO | [2025_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:40,686 | INFO | [2026_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:40,835 | INFO | [2026_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:40,959 | INFO | [2026_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,056 | INFO | [2026_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,163 | INFO | [2026_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,209 | INFO | [2022_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,247 | INFO | [2022_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,323 | INFO | [2022_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,365 | INFO | [2022_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,411 | INFO | [2022_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,455 | INFO | [2022_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,497 | INFO | [2022_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,537 | INFO | [2022_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,583 | INFO | [2022_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,635 | INFO | [2022_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,676 | INFO | [2022_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,722 | INFO | [2022_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,763 | INFO | [2023_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,798 | INFO | [2023_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:41,833 | INFO | [2023_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,168 | INFO | [2023_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,217 | INFO | [2023_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,262 | INFO | [2023_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,307 | INFO | [2023_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,347 | INFO | [2023_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,384 | INFO | [2023_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,425 | INFO | [2023_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,468 | INFO | [2023_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,508 | INFO | [2023_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,549 | INFO | [2024_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,588 | INFO | [2024_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,633 | INFO | [2024_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,670 | INFO | [2024_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:42,710 | INFO | [2024_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,045 | INFO | [2024_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,091 | INFO | [2024_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,135 | INFO | [2024_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,179 | INFO | [2024_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,225 | INFO | [2024_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,259 | INFO | [2024_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,296 | INFO | [2024_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,329 | INFO | [2025_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,359 | INFO | [2025_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,389 | INFO | [2025_03.xlsx] (payer) Columns: ['Sr No', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,421 | INFO | [2025_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,451 | INFO | [2025_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,541 | INFO | [2025_06.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:18:43,582 | INFO | [2025_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:18:43,663 | INFO | [2025_08.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:18:43,766 | INFO | [2025_09.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:18:43,803 | INFO | [2025_10.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:18:44,524 | INFO | [2025_11.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:18:44,571 | INFO | [2025_12.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:18:44,684 | INFO | [2026_01.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:18:44,772 | INFO | [2026_02.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:18:44,862 | INFO | [2026_03.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:18:44,937 | INFO | [2026_05.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:18:44,957 | INFO | ============================================================
+2026-07-13 07:18:44,957 | INFO | Done. Success: 104 | Skipped: 0 | Failed: 0
+2026-07-13 07:18:44,958 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-13 07:18:44,958 | INFO | ============================================================
+2026-07-13 07:26:48,023 | INFO | ============================================================
+2026-07-13 07:26:48,024 | INFO | Top15 PSP ETL started: 2026-07-13 07:26:48.024567
+2026-07-13 07:26:48,029 | INFO | [2022_01.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,031 | INFO | [2022_02.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,031 | INFO | [2022_03.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,032 | INFO | [2022_04.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,033 | INFO | [2022_05.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,033 | INFO | [2022_06.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,034 | INFO | [2022_07.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,034 | INFO | [2022_08.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,035 | INFO | [2022_09.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,036 | INFO | [2022_10.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,036 | INFO | [2022_11.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,037 | INFO | [2023_01.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,037 | INFO | [2023_02.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,038 | INFO | [2023_03.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,039 | INFO | [2023_04.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,039 | INFO | [2023_05.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,040 | INFO | [2023_06.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,041 | INFO | [2023_07.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,042 | INFO | [2023_08.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,043 | INFO | [2023_09.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,043 | INFO | [2023_10.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,044 | INFO | [2023_11.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,045 | INFO | [2023_12.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,047 | INFO | [2024_01.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,047 | INFO | [2024_02.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,048 | INFO | [2024_03.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,049 | INFO | [2024_04.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,049 | INFO | [2024_05.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,050 | INFO | [2024_06.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,051 | INFO | [2024_07.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,052 | INFO | [2024_08.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,052 | INFO | [2024_09.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,053 | INFO | [2024_10.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,054 | INFO | [2024_11.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,054 | INFO | [2024_12.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,056 | INFO | [2025_01.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,056 | INFO | [2025_02.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,057 | INFO | [2025_03.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,058 | INFO | [2025_04.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,058 | INFO | [2025_05.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,059 | INFO | [2025_06.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,060 | INFO | [2025_07.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,060 | INFO | [2025_08.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,061 | INFO | [2025_09.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,062 | INFO | [2025_10.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,063 | INFO | [2025_11.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,063 | INFO | [2025_12.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,064 | INFO | [2026_01.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,064 | INFO | [2026_02.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,065 | INFO | [2026_03.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,066 | INFO | [2026_04.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,066 | INFO | [2026_05.xlsx] (payee) Already loaded — skipping.
+2026-07-13 07:26:48,067 | INFO | [2022_01.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,068 | INFO | [2022_02.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,068 | INFO | [2022_03.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,069 | INFO | [2022_04.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,069 | INFO | [2022_05.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,070 | INFO | [2022_06.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,071 | INFO | [2022_07.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,071 | INFO | [2022_08.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,072 | INFO | [2022_09.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,073 | INFO | [2022_10.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,074 | INFO | [2022_11.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,075 | INFO | [2022_12.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,075 | INFO | [2023_01.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,076 | INFO | [2023_02.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,077 | INFO | [2023_03.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,077 | INFO | [2023_04.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,078 | INFO | [2023_05.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,079 | INFO | [2023_06.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,079 | INFO | [2023_07.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,080 | INFO | [2023_08.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,081 | INFO | [2023_09.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,081 | INFO | [2023_10.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,082 | INFO | [2023_11.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,082 | INFO | [2023_12.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,083 | INFO | [2024_01.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,083 | INFO | [2024_02.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,084 | INFO | [2024_03.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,085 | INFO | [2024_04.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,085 | INFO | [2024_05.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,086 | INFO | [2024_06.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,087 | INFO | [2024_07.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,087 | INFO | [2024_08.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,088 | INFO | [2024_09.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,089 | INFO | [2024_10.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,089 | INFO | [2024_11.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,090 | INFO | [2024_12.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,091 | INFO | [2025_01.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,091 | INFO | [2025_02.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,092 | INFO | [2025_03.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,092 | INFO | [2025_04.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,093 | INFO | [2025_05.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,093 | INFO | [2025_06.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,094 | INFO | [2025_07.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,094 | INFO | [2025_08.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,095 | INFO | [2025_09.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,095 | INFO | [2025_10.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,096 | INFO | [2025_11.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,096 | INFO | [2025_12.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,097 | INFO | [2026_01.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,098 | INFO | [2026_02.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,098 | INFO | [2026_03.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,099 | INFO | [2026_05.xlsx] (payer) Already loaded — skipping.
+2026-07-13 07:26:48,099 | ERROR | '~$2026_01.xlsx' does not match YYYY_MM.xlsx. Rename before running.
+2026-07-13 07:26:48,099 | INFO | ============================================================
+2026-07-13 07:26:48,100 | INFO | Done. Success: 0 | Skipped: 104 | Failed: 1
+2026-07-13 07:26:48,100 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-13 07:26:48,100 | INFO | ============================================================
+2026-07-13 07:27:50,743 | INFO | ============================================================
+2026-07-13 07:27:50,744 | INFO | Top15 PSP ETL started: 2026-07-13 07:27:50.744418
+2026-07-13 07:27:51,234 | INFO | [2022_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,274 | INFO | [2022_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,308 | INFO | [2022_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,337 | INFO | [2022_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,365 | INFO | [2022_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,393 | INFO | [2022_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,421 | INFO | [2022_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,447 | INFO | [2022_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,475 | INFO | [2022_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,506 | INFO | [2022_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,537 | INFO | [2022_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,565 | INFO | [2023_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,594 | INFO | [2023_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,623 | INFO | [2023_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,649 | INFO | [2023_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,677 | INFO | [2023_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,704 | INFO | [2023_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,728 | INFO | [2023_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,756 | INFO | [2023_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,791 | INFO | [2023_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,821 | INFO | [2023_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,848 | INFO | [2023_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,876 | INFO | [2023_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,906 | INFO | [2024_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,935 | INFO | [2024_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,965 | INFO | [2024_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:51,990 | INFO | [2024_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:52,018 | INFO | [2024_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:52,244 | INFO | [2024_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:52,475 | INFO | [2024_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:52,717 | INFO | [2024_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:52,747 | INFO | [2024_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:52,776 | INFO | [2024_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:52,806 | INFO | [2024_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:52,832 | INFO | [2024_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:52,865 | INFO | [2025_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:52,899 | INFO | [2025_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:52,929 | INFO | [2025_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:52,955 | INFO | [2025_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:52,980 | INFO | [2025_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,050 | INFO | [2025_06.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,086 | INFO | [2025_07.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,173 | INFO | [2025_08.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,251 | INFO | [2025_09.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,281 | INFO | [2025_10.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,312 | INFO | [2025_11.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,343 | INFO | [2025_12.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,424 | INFO | [2026_01.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,513 | INFO | [2026_02.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,590 | INFO | [2026_03.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,654 | INFO | [2026_04.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,727 | INFO | [2026_05.xlsx] (payee) Columns: ['Sr. No.', 'Payee PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,763 | INFO | [2022_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,791 | INFO | [2022_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,843 | INFO | [2022_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,867 | INFO | [2022_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,894 | INFO | [2022_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,920 | INFO | [2022_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,946 | INFO | [2022_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:53,974 | INFO | [2022_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,000 | INFO | [2022_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,028 | INFO | [2022_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,059 | INFO | [2022_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,086 | INFO | [2022_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,113 | INFO | [2023_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,138 | INFO | [2023_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,162 | INFO | [2023_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,388 | INFO | [2023_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,417 | INFO | [2023_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,446 | INFO | [2023_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,474 | INFO | [2023_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,500 | INFO | [2023_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,529 | INFO | [2023_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,555 | INFO | [2023_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,584 | INFO | [2023_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,611 | INFO | [2023_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,635 | INFO | [2024_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,663 | INFO | [2024_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,687 | INFO | [2024_03.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,714 | INFO | [2024_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,743 | INFO | [2024_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,946 | INFO | [2024_06.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:54,983 | INFO | [2024_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:55,014 | INFO | [2024_08.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:55,042 | INFO | [2024_09.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:55,069 | INFO | [2024_10.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:55,099 | INFO | [2024_11.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:55,127 | INFO | [2024_12.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:55,152 | INFO | [2025_01.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:55,177 | INFO | [2025_02.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:55,201 | INFO | [2025_03.xlsx] (payer) Columns: ['Sr No', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:55,227 | INFO | [2025_04.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:55,255 | INFO | [2025_05.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:55,344 | INFO | [2025_06.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:27:55,385 | INFO | [2025_07.xlsx] (payer) Columns: ['Sr. No.', 'Payer PSP', 'Total Volume (In Mn)', 'Approved %', 'BD %', 'TD %']
+2026-07-13 07:27:55,450 | INFO | [2025_08.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:27:55,522 | INFO | [2025_09.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:27:55,558 | INFO | [2025_10.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:27:56,223 | INFO | [2025_11.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:27:56,257 | INFO | [2025_12.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:27:56,337 | INFO | [2026_01.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:27:56,424 | INFO | [2026_02.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:27:56,497 | INFO | [2026_03.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:27:56,570 | INFO | [2026_05.xlsx] (payer) Columns: ['Sr. No.', 'payer_psp', 'total_volume_in_mn', 'approved_percent', 'bd_percent', 'td_percent']
+2026-07-13 07:27:56,590 | INFO | ============================================================
+2026-07-13 07:27:56,590 | INFO | Done. Success: 104 | Skipped: 0 | Failed: 0
+2026-07-13 07:27:56,591 | INFO | DB: C:\Users\lnegi\OneDrive\Desktop\npci_upi_analytics\staging\npci_upi.db
+2026-07-13 07:27:56,592 | INFO | ============================================================
