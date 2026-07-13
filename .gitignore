@@ -5,3 +5,8 @@ DECISIONS.md
 EXPLAINATION.md
 HHIanomalyCheck.sql
 test/
+psp_oct_nov_2023_step_check.sql
+psp_payer_name_mismatch_check.sql
+psp_name_casing_scope_check.sql
+psp_payer_weighted_decline_decomposition.sql
+psp_payer_2023_06_bd_td_swap_check.sql
