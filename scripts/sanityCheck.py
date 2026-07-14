@@ -8,7 +8,7 @@ from pathlib import Path
 # ─────────────────────────────────────────────────────────────
 
 DB_PATH = Path(sys.argv[1]) if len(sys.argv) > 1 else Path("staging/npci_upi.db")
-OUT_DIR = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("sql/qualityAnalysis")
+OUT_DIR = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("sql/qualityAnalysis/results")
 
 CALENDAR_START = (2022, 1)
 # NOTE: there is no CALENDAR_END constant anymore. Each table's missing-
