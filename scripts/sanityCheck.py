@@ -18,14 +18,6 @@ CALENDAR_START = (2022, 1)
 KNOWN_UPI_APPS_GAPS = {(2026, 3)}
 KNOWN_TOP15_PSP_GAPS = {(2022, 12, "payee"), (2026, 4, "payer")}
 
-KNOWN_DUP_APP_MONTHS = {
-    (2023, 2, "Bajaj Finserv"),
-    (2023, 11, "Mobikwik"),
-    (2023, 12, "Mobikwik"),
-    (2024, 7, "Federal Bank Apps"),
-    (2025, 8, "Others"),
-}
-
 KNOWN_BD_TD_ANOMALIES = {(2023, 6, "payer")}
 
 
@@ -91,6 +83,7 @@ SELECT 'stg_top15_psp', MAX(year * 100 + month) FROM stg_top15_psp;
 
 Q_DUP_MONTH_P2P = "SELECT year, month, COUNT(*) AS n FROM stg_p2p_p2m GROUP BY year, month HAVING COUNT(*) > 1;"
 Q_DUP_MONTH_PSP = "SELECT year, month, psp_type, COUNT(*) AS n FROM stg_top15_psp GROUP BY year, month, psp_type HAVING COUNT(*) != 15;"
+Q_DUP_MONTH_APPS = "SELECT year, month, app_name, COUNT(*) AS n FROM stg_upi_apps GROUP BY year, month, app_name HAVING COUNT(*) > 1;"
 
 Q_CONSECUTIVE_IDENTICAL_P2P = """
 SELECT a.year AS year1, a.month AS month1, a.total_volume_mn AS vol1,
@@ -305,12 +298,7 @@ def main():
             lambda c, r: expect_empty(c, r, "stg_p2p_p2m duplicate-month check"))
         add("4b. Row count != 15 per month/type — stg_top15_psp", Q_DUP_MONTH_PSP,
             lambda c, r: expect_empty(c, r, "stg_top15_psp count-per-month check"))
-        add("4c. Undocumented duplicate app per month — stg_upi_apps",
-            f"""
-            SELECT year, month, app_name, COUNT(*) AS n FROM stg_upi_apps
-            WHERE (year, month, app_name) NOT IN {tuple(KNOWN_DUP_APP_MONTHS) if len(KNOWN_DUP_APP_MONTHS) > 1 else f"(('{KNOWN_DUP_APP_MONTHS}'))"}
-            GROUP BY year, month, app_name HAVING COUNT(*) > 1;
-            """,
+        add("4c. Undocumented duplicate app per month — stg_upi_apps", Q_DUP_MONTH_APPS,
             lambda c, r: expect_empty(c, r, "stg_upi_apps undocumented-duplicate-app check"))
 
         # 5 — consecutive-identical (both tables)

@@ -100,20 +100,8 @@ SELECT year, month, psp_type, COUNT(*) AS n FROM stg_top15_psp GROUP BY year, mo
 -- symptom and is a different fix (add a disambiguating override) than a genuine
 -- missing PSP.
 
--- FIX: was a blind expect_empty; now excludes the 5 confirmed-genuine
--- duplicate (year, month, app_name) combinations documented in DECISIONS.md
--- (Step 1) rather than flagging them every run.
-SELECT year, month, app_name, COUNT(*) AS n
-FROM stg_upi_apps
-WHERE (year, month, app_name) NOT IN (
-    (2023, 2, 'Bajaj Finserv'),
-    (2023, 11, 'Mobikwik'),
-    (2023, 12, 'Mobikwik'),
-    (2024, 7, 'Federal Bank Apps'),
-    (2025, 8, 'Others')
-)
-GROUP BY year, month, app_name
-HAVING COUNT(*) > 1;
+-- Duplicate check for UPI APPS
+SELECT year, month, app_name, COUNT(*) AS n FROM stg_upi_apps GROUP BY year, month, app_name HAVING COUNT(*) > 1;
 -- Expect: empty (any row here is a NEW, undocumented duplicate)
 
 
