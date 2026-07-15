@@ -26,21 +26,24 @@ ORDER BY year, month, psp_type;
 
 -- ─────────────────────────────────────────────────────────────────
 -- BLOCK 3: Persistent leaders / laggards.
--- Restricted to PSPs appearing in >= 51 of the possible months, so a
--- PSP that only shows up in top-15 for 2-3 months (small sample,
--- volatile %) doesn't distort the ranking.
 -- ─────────────────────────────────────────────────────────────────
+WITH available_months AS (
+    SELECT psp_type, COUNT(DISTINCT year * 100 + month) AS max_months
+    FROM stg_top15_psp
+    GROUP BY psp_type
+)
 SELECT
-    psp_type, psp_name,
+    t.psp_type, t.psp_name,
     COUNT(*) AS months_present,
-    ROUND(AVG(approved_percent), 2) AS avg_approval_pct,
-    ROUND(MIN(approved_percent), 2) AS min_approval_pct,
-    ROUND(MAX(approved_percent), 2) AS max_approval_pct,
-    ROUND(SUM(total_volume_mn), 2) AS total_volume_mn_across_appearances
-FROM stg_top15_psp
-GROUP BY psp_type, psp_name
-HAVING COUNT(*) >= 51
-ORDER BY psp_type, avg_approval_pct DESC;
+    ROUND(AVG(t.approved_percent), 2) AS avg_approval_pct,
+    ROUND(MIN(t.approved_percent), 2) AS min_approval_pct,
+    ROUND(MAX(t.approved_percent), 2) AS max_approval_pct,
+    ROUND(SUM(t.total_volume_mn), 2) AS total_volume_mn_across_appearances
+FROM stg_top15_psp t
+JOIN available_months am ON am.psp_type = t.psp_type
+GROUP BY t.psp_type, t.psp_name
+HAVING COUNT(*) = am.max_months
+ORDER BY t.psp_type, avg_approval_pct DESC;
 
 -- ─────────────────────────────────────────────────────────────────
 -- BLOCK 4: Decline composition — of the transactions that fail,
