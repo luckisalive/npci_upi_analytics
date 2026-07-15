@@ -93,18 +93,34 @@ def clean_numeric(series: pd.Series) -> pd.Series:
         .pipe(pd.to_numeric, errors="coerce")
     )
 
+APP_NAME_OVERRIDES = {
+    "PAYTMWALLET": "Paytm",
+    "Paytm (OCL )": "Paytm",
+    "Paytm (OCL)": "Paytm",
+    "Paytm Payments Bank App": "Paytm",
+    "Bajaj Finserv PPI": "Bajaj Finserv",
+    "Bajaj Markets": "Bajaj Finserv",
+    "Bajaj Pay Wallet": "Bajaj Finserv",
+    "Federal Bank Apps": "Federal Bank App",
+    "Mobikwik PPI": "Mobikwik",
+    "Other Apps": "Other",
+    "Others": "Other",
+}
 
 def clean_app_name(series: pd.Series) -> pd.Series:
     """
     Strips whitespace and footnote markers like '#', '*', '**'.
     Preserves original casing — app names are proper nouns.
     """
-    return (
+    s = (
         series.astype(str)
         .str.strip()
         .str.replace(r"[#*]+$", "", regex=True)
         .str.strip()
     )
+    s = s.replace(APP_NAME_OVERRIDES)
+
+    return s.str.strip()
 
 # ─────────────────────────────────────────────────────────────
 # PARSER
