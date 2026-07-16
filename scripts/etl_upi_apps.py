@@ -105,6 +105,8 @@ APP_NAME_OVERRIDES = {
     "Mobikwik PPI": "Mobikwik",
     "Other Apps": "Other",
     "Others": "Other",
+    "Phone Pe": "PhonePe",
+    "Phonepe": "PhonePe",
 }
 
 def clean_app_name(series: pd.Series) -> pd.Series:
