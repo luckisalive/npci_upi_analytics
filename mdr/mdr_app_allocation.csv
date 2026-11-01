@@ -1,0 +1,181 @@
+cap_scenario,p_pct,app_group,value_share_pct,volume_share_pct,app_pool_cr
+cap-light (0%),16.75,All other apps,6.1563,7.0291,112.5
+cap-light (0%),16.75,Cred,2.1867,0.7582,40.0
+cap-light (0%),16.75,Google Pay,35.1273,35.4166,642.0
+cap-light (0%),16.75,Navi,1.1025,2.7105,20.1
+cap-light (0%),16.75,Paytm,6.0266,7.3646,110.1
+cap-light (0%),16.75,PhonePe,49.4006,46.7209,902.9
+cap-light (0%),23.78,All other apps,6.1563,7.0291,159.7
+cap-light (0%),23.78,Cred,2.1867,0.7582,56.7
+cap-light (0%),23.78,Google Pay,35.1273,35.4166,911.4
+cap-light (0%),23.78,Navi,1.1025,2.7105,28.6
+cap-light (0%),23.78,Paytm,6.0266,7.3646,156.4
+cap-light (0%),23.78,PhonePe,49.4006,46.7209,1281.7
+cap-light (0%),30.81,All other apps,6.1563,7.0291,206.9
+cap-light (0%),30.81,Cred,2.1867,0.7582,73.5
+cap-light (0%),30.81,Google Pay,35.1273,35.4166,1180.8
+cap-light (0%),30.81,Navi,1.1025,2.7105,37.1
+cap-light (0%),30.81,Paytm,6.0266,7.3646,202.6
+cap-light (0%),30.81,PhonePe,49.4006,46.7209,1660.6
+cap-light (0%),37.83,All other apps,6.1563,7.0291,254.2
+cap-light (0%),37.83,Cred,2.1867,0.7582,90.3
+cap-light (0%),37.83,Google Pay,35.1273,35.4166,1450.2
+cap-light (0%),37.83,Navi,1.1025,2.7105,45.5
+cap-light (0%),37.83,Paytm,6.0266,7.3646,248.8
+cap-light (0%),37.83,PhonePe,49.4006,46.7209,2039.4
+cap-light (0%),44.86,All other apps,6.1563,7.0291,301.4
+cap-light (0%),44.86,Cred,2.1867,0.7582,107.0
+cap-light (0%),44.86,Google Pay,35.1273,35.4166,1719.5
+cap-light (0%),44.86,Navi,1.1025,2.7105,54.0
+cap-light (0%),44.86,Paytm,6.0266,7.3646,295.0
+cap-light (0%),44.86,PhonePe,49.4006,46.7209,2418.2
+cap-light (0%),51.89,All other apps,6.1563,7.0291,348.6
+cap-light (0%),51.89,Cred,2.1867,0.7582,123.8
+cap-light (0%),51.89,Google Pay,35.1273,35.4166,1988.9
+cap-light (0%),51.89,Navi,1.1025,2.7105,62.4
+cap-light (0%),51.89,Paytm,6.0266,7.3646,341.2
+cap-light (0%),51.89,PhonePe,49.4006,46.7209,2797.0
+cap-light (0%),58.92,All other apps,6.1563,7.0291,395.8
+cap-light (0%),58.92,Cred,2.1867,0.7582,140.6
+cap-light (0%),58.92,Google Pay,35.1273,35.4166,2258.3
+cap-light (0%),58.92,Navi,1.1025,2.7105,70.9
+cap-light (0%),58.92,Paytm,6.0266,7.3646,387.4
+cap-light (0%),58.92,PhonePe,49.4006,46.7209,3175.9
+cap-light (0%),65.94,All other apps,6.1563,7.0291,443.0
+cap-light (0%),65.94,Cred,2.1867,0.7582,157.3
+cap-light (0%),65.94,Google Pay,35.1273,35.4166,2527.6
+cap-light (0%),65.94,Navi,1.1025,2.7105,79.3
+cap-light (0%),65.94,Paytm,6.0266,7.3646,433.7
+cap-light (0%),65.94,PhonePe,49.4006,46.7209,3554.7
+cap-light (0%),72.97,All other apps,6.1563,7.0291,490.2
+cap-light (0%),72.97,Cred,2.1867,0.7582,174.1
+cap-light (0%),72.97,Google Pay,35.1273,35.4166,2797.0
+cap-light (0%),72.97,Navi,1.1025,2.7105,87.8
+cap-light (0%),72.97,Paytm,6.0266,7.3646,479.9
+cap-light (0%),72.97,PhonePe,49.4006,46.7209,3933.5
+cap-light (0%),80.0,All other apps,6.1563,7.0291,537.4
+cap-light (0%),80.0,Cred,2.1867,0.7582,190.9
+cap-light (0%),80.0,Google Pay,35.1273,35.4166,3066.4
+cap-light (0%),80.0,Navi,1.1025,2.7105,96.2
+cap-light (0%),80.0,Paytm,6.0266,7.3646,526.1
+cap-light (0%),80.0,PhonePe,49.4006,46.7209,4312.3
+cap-moderate (20%),16.75,All other apps,6.1563,7.0291,101.3
+cap-moderate (20%),16.75,Cred,2.1867,0.7582,36.0
+cap-moderate (20%),16.75,Google Pay,35.1273,35.4166,577.8
+cap-moderate (20%),16.75,Navi,1.1025,2.7105,18.1
+cap-moderate (20%),16.75,Paytm,6.0266,7.3646,99.1
+cap-moderate (20%),16.75,PhonePe,49.4006,46.7209,812.6
+cap-moderate (20%),23.78,All other apps,6.1563,7.0291,143.8
+cap-moderate (20%),23.78,Cred,2.1867,0.7582,51.1
+cap-moderate (20%),23.78,Google Pay,35.1273,35.4166,820.3
+cap-moderate (20%),23.78,Navi,1.1025,2.7105,25.7
+cap-moderate (20%),23.78,Paytm,6.0266,7.3646,140.7
+cap-moderate (20%),23.78,PhonePe,49.4006,46.7209,1153.6
+cap-moderate (20%),30.81,All other apps,6.1563,7.0291,186.2
+cap-moderate (20%),30.81,Cred,2.1867,0.7582,66.2
+cap-moderate (20%),30.81,Google Pay,35.1273,35.4166,1062.7
+cap-moderate (20%),30.81,Navi,1.1025,2.7105,33.4
+cap-moderate (20%),30.81,Paytm,6.0266,7.3646,182.3
+cap-moderate (20%),30.81,PhonePe,49.4006,46.7209,1494.5
+cap-moderate (20%),37.83,All other apps,6.1563,7.0291,228.7
+cap-moderate (20%),37.83,Cred,2.1867,0.7582,81.2
+cap-moderate (20%),37.83,Google Pay,35.1273,35.4166,1305.1
+cap-moderate (20%),37.83,Navi,1.1025,2.7105,41.0
+cap-moderate (20%),37.83,Paytm,6.0266,7.3646,223.9
+cap-moderate (20%),37.83,PhonePe,49.4006,46.7209,1835.4
+cap-moderate (20%),44.86,All other apps,6.1563,7.0291,271.2
+cap-moderate (20%),44.86,Cred,2.1867,0.7582,96.3
+cap-moderate (20%),44.86,Google Pay,35.1273,35.4166,1547.6
+cap-moderate (20%),44.86,Navi,1.1025,2.7105,48.6
+cap-moderate (20%),44.86,Paytm,6.0266,7.3646,265.5
+cap-moderate (20%),44.86,PhonePe,49.4006,46.7209,2176.4
+cap-moderate (20%),51.89,All other apps,6.1563,7.0291,313.7
+cap-moderate (20%),51.89,Cred,2.1867,0.7582,111.4
+cap-moderate (20%),51.89,Google Pay,35.1273,35.4166,1790.0
+cap-moderate (20%),51.89,Navi,1.1025,2.7105,56.2
+cap-moderate (20%),51.89,Paytm,6.0266,7.3646,307.1
+cap-moderate (20%),51.89,PhonePe,49.4006,46.7209,2517.3
+cap-moderate (20%),58.92,All other apps,6.1563,7.0291,356.2
+cap-moderate (20%),58.92,Cred,2.1867,0.7582,126.5
+cap-moderate (20%),58.92,Google Pay,35.1273,35.4166,2032.4
+cap-moderate (20%),58.92,Navi,1.1025,2.7105,63.8
+cap-moderate (20%),58.92,Paytm,6.0266,7.3646,348.7
+cap-moderate (20%),58.92,PhonePe,49.4006,46.7209,2858.3
+cap-moderate (20%),65.94,All other apps,6.1563,7.0291,398.7
+cap-moderate (20%),65.94,Cred,2.1867,0.7582,141.6
+cap-moderate (20%),65.94,Google Pay,35.1273,35.4166,2274.9
+cap-moderate (20%),65.94,Navi,1.1025,2.7105,71.4
+cap-moderate (20%),65.94,Paytm,6.0266,7.3646,390.3
+cap-moderate (20%),65.94,PhonePe,49.4006,46.7209,3199.2
+cap-moderate (20%),72.97,All other apps,6.1563,7.0291,441.2
+cap-moderate (20%),72.97,Cred,2.1867,0.7582,156.7
+cap-moderate (20%),72.97,Google Pay,35.1273,35.4166,2517.3
+cap-moderate (20%),72.97,Navi,1.1025,2.7105,79.0
+cap-moderate (20%),72.97,Paytm,6.0266,7.3646,431.9
+cap-moderate (20%),72.97,PhonePe,49.4006,46.7209,3540.1
+cap-moderate (20%),80.0,All other apps,6.1563,7.0291,483.7
+cap-moderate (20%),80.0,Cred,2.1867,0.7582,171.8
+cap-moderate (20%),80.0,Google Pay,35.1273,35.4166,2759.7
+cap-moderate (20%),80.0,Navi,1.1025,2.7105,86.6
+cap-moderate (20%),80.0,Paytm,6.0266,7.3646,473.5
+cap-moderate (20%),80.0,PhonePe,49.4006,46.7209,3881.1
+cap-heavy (40%),16.75,All other apps,6.1563,7.0291,90.0
+cap-heavy (40%),16.75,Cred,2.1867,0.7582,32.0
+cap-heavy (40%),16.75,Google Pay,35.1273,35.4166,513.6
+cap-heavy (40%),16.75,Navi,1.1025,2.7105,16.1
+cap-heavy (40%),16.75,Paytm,6.0266,7.3646,88.1
+cap-heavy (40%),16.75,PhonePe,49.4006,46.7209,722.3
+cap-heavy (40%),23.78,All other apps,6.1563,7.0291,127.8
+cap-heavy (40%),23.78,Cred,2.1867,0.7582,45.4
+cap-heavy (40%),23.78,Google Pay,35.1273,35.4166,729.1
+cap-heavy (40%),23.78,Navi,1.1025,2.7105,22.9
+cap-heavy (40%),23.78,Paytm,6.0266,7.3646,125.1
+cap-heavy (40%),23.78,PhonePe,49.4006,46.7209,1025.4
+cap-heavy (40%),30.81,All other apps,6.1563,7.0291,165.5
+cap-heavy (40%),30.81,Cred,2.1867,0.7582,58.8
+cap-heavy (40%),30.81,Google Pay,35.1273,35.4166,944.6
+cap-heavy (40%),30.81,Navi,1.1025,2.7105,29.6
+cap-heavy (40%),30.81,Paytm,6.0266,7.3646,162.1
+cap-heavy (40%),30.81,PhonePe,49.4006,46.7209,1328.4
+cap-heavy (40%),37.83,All other apps,6.1563,7.0291,203.3
+cap-heavy (40%),37.83,Cred,2.1867,0.7582,72.2
+cap-heavy (40%),37.83,Google Pay,35.1273,35.4166,1160.1
+cap-heavy (40%),37.83,Navi,1.1025,2.7105,36.4
+cap-heavy (40%),37.83,Paytm,6.0266,7.3646,199.0
+cap-heavy (40%),37.83,PhonePe,49.4006,46.7209,1631.5
+cap-heavy (40%),44.86,All other apps,6.1563,7.0291,241.1
+cap-heavy (40%),44.86,Cred,2.1867,0.7582,85.6
+cap-heavy (40%),44.86,Google Pay,35.1273,35.4166,1375.6
+cap-heavy (40%),44.86,Navi,1.1025,2.7105,43.2
+cap-heavy (40%),44.86,Paytm,6.0266,7.3646,236.0
+cap-heavy (40%),44.86,PhonePe,49.4006,46.7209,1934.6
+cap-heavy (40%),51.89,All other apps,6.1563,7.0291,278.9
+cap-heavy (40%),51.89,Cred,2.1867,0.7582,99.0
+cap-heavy (40%),51.89,Google Pay,35.1273,35.4166,1591.1
+cap-heavy (40%),51.89,Navi,1.1025,2.7105,49.9
+cap-heavy (40%),51.89,Paytm,6.0266,7.3646,273.0
+cap-heavy (40%),51.89,PhonePe,49.4006,46.7209,2237.6
+cap-heavy (40%),58.92,All other apps,6.1563,7.0291,316.6
+cap-heavy (40%),58.92,Cred,2.1867,0.7582,112.5
+cap-heavy (40%),58.92,Google Pay,35.1273,35.4166,1806.6
+cap-heavy (40%),58.92,Navi,1.1025,2.7105,56.7
+cap-heavy (40%),58.92,Paytm,6.0266,7.3646,310.0
+cap-heavy (40%),58.92,PhonePe,49.4006,46.7209,2540.7
+cap-heavy (40%),65.94,All other apps,6.1563,7.0291,354.4
+cap-heavy (40%),65.94,Cred,2.1867,0.7582,125.9
+cap-heavy (40%),65.94,Google Pay,35.1273,35.4166,2022.1
+cap-heavy (40%),65.94,Navi,1.1025,2.7105,63.5
+cap-heavy (40%),65.94,Paytm,6.0266,7.3646,346.9
+cap-heavy (40%),65.94,PhonePe,49.4006,46.7209,2843.7
+cap-heavy (40%),72.97,All other apps,6.1563,7.0291,392.2
+cap-heavy (40%),72.97,Cred,2.1867,0.7582,139.3
+cap-heavy (40%),72.97,Google Pay,35.1273,35.4166,2237.6
+cap-heavy (40%),72.97,Navi,1.1025,2.7105,70.2
+cap-heavy (40%),72.97,Paytm,6.0266,7.3646,383.9
+cap-heavy (40%),72.97,PhonePe,49.4006,46.7209,3146.8
+cap-heavy (40%),80.0,All other apps,6.1563,7.0291,429.9
+cap-heavy (40%),80.0,Cred,2.1867,0.7582,152.7
+cap-heavy (40%),80.0,Google Pay,35.1273,35.4166,2453.1
+cap-heavy (40%),80.0,Navi,1.1025,2.7105,77.0
+cap-heavy (40%),80.0,Paytm,6.0266,7.3646,420.9
+cap-heavy (40%),80.0,PhonePe,49.4006,46.7209,3449.8

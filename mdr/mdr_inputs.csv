@@ -1,0 +1,20 @@
+parameter,value,status,note
+rate,0.4%,NEWS-REPORTED,on P2M above threshold
+threshold_rs,2000,NEWS-REPORTED,
+cap_rs_at_or_above_75000,300,NEWS-REPORTED,"0.4% x 75,000 = 300"
+effective_date,TBA (post-Diwali),NEWS-REPORTED,"was 2026-10-15; NPCI deferred 2026-10-13, new date to be notified; re-check before publishing"
+payer,merchant,NEWS-REPORTED,not the consumer; P2P stays free
+split_issuer_app_acquirer,40/30/30,VERIFY,reported as proposed
+small_merchant_fund_share,0.05,VERIFY,"shown separately, not netted from the split"
+flat_rs5_sectors,excluded from model,VERIFY,railways/fuel etc. reported; confirm in PDF
+vol_share_below_threshold,0.95,VERIFY,"reported share of VOLUME, not value"
+window_months,202504..202603,DERIVED,earliest common month 202603
+apps_months_missing_in_window,[202603],DERIVED,app shares use available months only
+annual_p2m_value_cr,9093029.1,DERIVED,trailing 12 months
+avg_p2m_ticket_rs,597.0,DERIVED,value_cr*10/volume_mn
+p_min,0.1675,DERIVED,= (1-0.95)*2000/avg_ticket; floor on value share above threshold
+p_max,0.8,ASSUMPTION,no value-band source; vary freely
+big_ticket_mean_rs,150000,ASSUMPTION,for cap effect
+exempt_share,0.0,ASSUMPTION,micro-merchant exemption not modelled by default
+cap_scenarios,"{'cap-light (0%)': 0.0, 'cap-moderate (20%)': 0.2, 'cap-heavy (40%)': 0.4}",ASSUMPTION,"share of taxable value in txns >= Rs 75,000"
+app_shares_basis,total UPI value (P2P+P2M),ASSUMPTION,stg_upi_apps has no P2M-only split
