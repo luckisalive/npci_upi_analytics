@@ -1,0 +1,228 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/reportVersion/1.1.0/schema.json",
+  "themeCollection": {
+    "baseTheme": {
+      "name": "CY24SU02",
+      "version": "5.56",
+      "type": 2
+    }
+  },
+  "sections": [
+    {
+      "name": "Page1",
+      "displayName": "1 Market Concentration",
+      "width": 1280,
+      "height": 720,
+      "visualContainers": [
+        {
+          "x": 20,
+          "y": 15,
+          "z": 0,
+          "width": 220,
+          "height": 85,
+          "config": "{\"name\": \"vis_20_15\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 15, \"z\": 0, \"width\": 220, \"height\": 85}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Min(tb_snapshot.as_of)\", \"displayName\": \"As Of\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_snapshot\", \"Type\": 0}], \"Select\": [{\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"as_of\"}}, \"Function\": 3}, \"Name\": \"Min(tb_snapshot.as_of)\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'As Of'\"}}}}}], \"categoryAxis\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}}}"
+        },
+        {
+          "x": 260,
+          "y": 15,
+          "z": 0,
+          "width": 240,
+          "height": 85,
+          "config": "{\"name\": \"vis_260_15\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 260, \"y\": 15, \"z\": 0, \"width\": 240, \"height\": 85}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Sum(tb_snapshot.latest_hhi)\", \"displayName\": \"Latest HHI\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_snapshot\", \"Type\": 0}], \"Select\": [{\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"latest_hhi\"}}, \"Function\": 0}, \"Name\": \"Sum(tb_snapshot.latest_hhi)\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Latest HHI'\"}}}}}], \"categoryAxis\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}}}"
+        },
+        {
+          "x": 520,
+          "y": 15,
+          "z": 0,
+          "width": 240,
+          "height": 85,
+          "config": "{\"name\": \"vis_520_15\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 520, \"y\": 15, \"z\": 0, \"width\": 240, \"height\": 85}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Min(tb_snapshot.hhi_band)\", \"displayName\": \"Concentration Band\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_snapshot\", \"Type\": 0}], \"Select\": [{\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"hhi_band\"}}, \"Function\": 3}, \"Name\": \"Min(tb_snapshot.hhi_band)\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Concentration Band'\"}}}}}], \"categoryAxis\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}}}"
+        },
+        {
+          "x": 780,
+          "y": 15,
+          "z": 0,
+          "width": 240,
+          "height": 85,
+          "config": "{\"name\": \"vis_780_15\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 780, \"y\": 15, \"z\": 0, \"width\": 240, \"height\": 85}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Min(tb_snapshot.leader_name)\", \"displayName\": \"Market Leader\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_snapshot\", \"Type\": 0}], \"Select\": [{\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"leader_name\"}}, \"Function\": 3}, \"Name\": \"Min(tb_snapshot.leader_name)\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Market Leader'\"}}}}}], \"categoryAxis\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}}}"
+        },
+        {
+          "x": 1040,
+          "y": 15,
+          "z": 0,
+          "width": 220,
+          "height": 85,
+          "config": "{\"name\": \"vis_1040_15\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 1040, \"y\": 15, \"z\": 0, \"width\": 220, \"height\": 85}}], \"singleVisual\": {\"visualType\": \"card\", \"projections\": {\"Values\": [{\"queryRef\": \"Sum(tb_snapshot.leader_share_pct)\", \"displayName\": \"Leader Share %\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_snapshot\", \"Type\": 0}], \"Select\": [{\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"leader_share_pct\"}}, \"Function\": 0}, \"Name\": \"Sum(tb_snapshot.leader_share_pct)\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Leader Share %'\"}}}}}], \"categoryAxis\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"labels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}], \"categoryLabels\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"false\"}}}}}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 115,
+          "z": 0,
+          "width": 610,
+          "height": 520,
+          "config": "{\"name\": \"vis_20_115\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 115, \"z\": 0, \"width\": 610, \"height\": 520}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"tb_hhi_trend.month_date\"}], \"Y\": [{\"queryRef\": \"Sum(tb_hhi_trend.hhi_value)\"}], \"Series\": [{\"queryRef\": \"tb_hhi_trend.series\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_hhi_trend\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"month_date\"}, \"Name\": \"tb_hhi_trend.month_date\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"hhi_value\"}}, \"Function\": 0}, \"Name\": \"Sum(tb_hhi_trend.hhi_value)\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"series\"}, \"Name\": \"tb_hhi_trend.series\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'HHI Trend & DOJ Thresholds'\"}}}}}]}}}"
+        },
+        {
+          "x": 650,
+          "y": 115,
+          "z": 0,
+          "width": 610,
+          "height": 520,
+          "config": "{\"name\": \"vis_650_115\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 650, \"y\": 115, \"z\": 0, \"width\": 610, \"height\": 520}}], \"singleVisual\": {\"visualType\": \"stackedAreaChart\", \"projections\": {\"Category\": [{\"queryRef\": \"tb_app_shares.month_date\"}], \"Y\": [{\"queryRef\": \"Sum(tb_app_shares.market_share_pct)\"}], \"Series\": [{\"queryRef\": \"tb_app_shares.app_group\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_app_shares\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"month_date\"}, \"Name\": \"tb_app_shares.month_date\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"market_share_pct\"}}, \"Function\": 0}, \"Name\": \"Sum(tb_app_shares.market_share_pct)\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"app_group\"}, \"Name\": \"tb_app_shares.app_group\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Top 5 App Market Share (%)'\"}}}}}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 645,
+          "z": 0,
+          "width": 1240,
+          "height": 60,
+          "config": "{\"name\": \"tb_20_645\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 645, \"z\": 0, \"width\": 1240, \"height\": 60}}], \"singleVisual\": {\"visualType\": \"textbox\", \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"HHI measures app-level concentration (PhonePe and Google Pay as apps), not bank or PSP-licence level. Bands use DOJ/FTC thresholds (1,500 / 2,500). 2026-03 is missing at source.\", \"textStyle\": {\"fontSize\": \"9pt\", \"fontFamily\": \"Segoe UI\", \"color\": {\"solid\": {\"color\": \"#4A5568\"}}}}]}]}}]}}}"
+        }
+      ]
+    },
+    {
+      "name": "Page2",
+      "displayName": "2 P2P vs P2M",
+      "width": 1280,
+      "height": 720,
+      "visualContainers": [
+        {
+          "x": 20,
+          "y": 15,
+          "z": 0,
+          "width": 610,
+          "height": 305,
+          "config": "{\"name\": \"vis_20_15\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 15, \"z\": 0, \"width\": 610, \"height\": 305}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"tb_p2p_p2m_long.month_date\"}], \"Y\": [{\"queryRef\": \"Sum(tb_p2p_p2m_long.share_pct)\"}], \"Series\": [{\"queryRef\": \"tb_p2p_p2m_long.rail\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_p2p_p2m_long\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"month_date\"}, \"Name\": \"tb_p2p_p2m_long.month_date\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"share_pct\"}}, \"Function\": 0}, \"Name\": \"Sum(tb_p2p_p2m_long.share_pct)\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"rail\"}, \"Name\": \"tb_p2p_p2m_long.rail\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Volume Share % (P2P vs P2M)'\"}}}}}]}}}"
+        },
+        {
+          "x": 650,
+          "y": 15,
+          "z": 0,
+          "width": 610,
+          "height": 305,
+          "config": "{\"name\": \"vis_650_15\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 650, \"y\": 15, \"z\": 0, \"width\": 610, \"height\": 305}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"tb_p2p_p2m_long.month_date\"}], \"Y\": [{\"queryRef\": \"Sum(tb_p2p_p2m_long.volume_mn)\"}], \"Series\": [{\"queryRef\": \"tb_p2p_p2m_long.rail\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_p2p_p2m_long\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"month_date\"}, \"Name\": \"tb_p2p_p2m_long.month_date\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"volume_mn\"}}, \"Function\": 0}, \"Name\": \"Sum(tb_p2p_p2m_long.volume_mn)\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"rail\"}, \"Name\": \"tb_p2p_p2m_long.rail\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Total Volume (Mn)'\"}}}}}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 330,
+          "z": 0,
+          "width": 1240,
+          "height": 290,
+          "config": "{\"name\": \"vis_20_330\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 330, \"z\": 0, \"width\": 1240, \"height\": 290}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"tb_p2p_p2m_long.month_date\"}], \"Y\": [{\"queryRef\": \"Sum(tb_p2p_p2m_long.yoy_pct)\"}], \"Series\": [{\"queryRef\": \"tb_p2p_p2m_long.rail\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_p2p_p2m_long\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"month_date\"}, \"Name\": \"tb_p2p_p2m_long.month_date\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"yoy_pct\"}}, \"Function\": 0}, \"Name\": \"Sum(tb_p2p_p2m_long.yoy_pct)\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"rail\"}, \"Name\": \"tb_p2p_p2m_long.rail\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'YoY Growth Rate (%) by Rail'\"}}}}}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 630,
+          "z": 0,
+          "width": 1240,
+          "height": 75,
+          "config": "{\"name\": \"tb_20_630\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 630, \"z\": 0, \"width\": 1240, \"height\": 75}}], \"singleVisual\": {\"visualType\": \"textbox\", \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"P2M share first reached 50% or more in Aug 2022 (50.01%). Annual growth P2P/P2M was 28.1%/93.0% in 2023, 31.0%/57.6% in 2024 and 29.5%/34.5% in 2025. By Mar-26, monthly YoY is 23.69% vs 23.73%. P2M share peaked at 63.66% in Jun-25 and has plateaued near 62.6%, below the peak (not recovered).\", \"textStyle\": {\"fontSize\": \"9pt\", \"fontFamily\": \"Segoe UI\", \"color\": {\"solid\": {\"color\": \"#4A5568\"}}}}]}]}}]}}}"
+        }
+      ]
+    },
+    {
+      "name": "Page3",
+      "displayName": "3 PSP Reliability",
+      "width": 1280,
+      "height": 720,
+      "visualContainers": [
+        {
+          "x": 20,
+          "y": 15,
+          "z": 0,
+          "width": 610,
+          "height": 305,
+          "config": "{\"name\": \"vis_20_15\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 15, \"z\": 0, \"width\": 610, \"height\": 305}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"tb_psp_monthly.month_date\"}], \"Y\": [{\"queryRef\": \"Sum(tb_psp_monthly.approved_weighted)\"}], \"Series\": [{\"queryRef\": \"tb_psp_monthly.psp_type\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_psp_monthly\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"month_date\"}, \"Name\": \"tb_psp_monthly.month_date\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"approved_weighted\"}}, \"Function\": 0}, \"Name\": \"Sum(tb_psp_monthly.approved_weighted)\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"psp_type\"}, \"Name\": \"tb_psp_monthly.psp_type\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Weighted Approval Rate (%) by Type'\"}}}}}]}}}"
+        },
+        {
+          "x": 650,
+          "y": 15,
+          "z": 0,
+          "width": 610,
+          "height": 305,
+          "config": "{\"name\": \"vis_650_15\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 650, \"y\": 15, \"z\": 0, \"width\": 610, \"height\": 305}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"tb_psp_mix.month_date\"}], \"Y\": [{\"queryRef\": \"Avg(tb_psp_mix.pct_weighted)\"}], \"Series\": [{\"queryRef\": \"tb_psp_mix.component\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_psp_mix\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"month_date\"}, \"Name\": \"tb_psp_mix.month_date\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"pct_weighted\"}}, \"Function\": 1}, \"Name\": \"Avg(tb_psp_mix.pct_weighted)\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"component\"}, \"Name\": \"tb_psp_mix.component\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Decline Reason Breakdown (%) \\u2014 Payer & Payee Average'\"}}}}}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 330,
+          "z": 0,
+          "width": 610,
+          "height": 295,
+          "config": "{\"name\": \"vis_20_330\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 330, \"z\": 0, \"width\": 610, \"height\": 295}}], \"singleVisual\": {\"visualType\": \"tableEx\", \"projections\": {\"Values\": [{\"queryRef\": \"tb_psp_persistent.psp_name\"}, {\"queryRef\": \"tb_psp_persistent.psp_type\"}, {\"queryRef\": \"tb_psp_persistent.months_present\"}, {\"queryRef\": \"tb_psp_persistent.avg_approved\"}, {\"queryRef\": \"tb_psp_persistent.total_volume_mn\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_psp_persistent\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"psp_name\"}, \"Name\": \"tb_psp_persistent.psp_name\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"psp_type\"}, \"Name\": \"tb_psp_persistent.psp_type\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"months_present\"}, \"Name\": \"tb_psp_persistent.months_present\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"avg_approved\"}, \"Name\": \"tb_psp_persistent.avg_approved\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"total_volume_mn\"}, \"Name\": \"tb_psp_persistent.total_volume_mn\"}], \"OrderBy\": [{\"Direction\": 2, \"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"avg_approved\"}}}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Persistent PSP Stability (Sorted by Avg Approved)'\"}}}}}]}}}"
+        },
+        {
+          "x": 650,
+          "y": 330,
+          "z": 0,
+          "width": 610,
+          "height": 295,
+          "config": "{\"name\": \"vis_650_330\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 650, \"y\": 330, \"z\": 0, \"width\": 610, \"height\": 295}}], \"singleVisual\": {\"visualType\": \"clusteredBarChart\", \"projections\": {\"Category\": [{\"queryRef\": \"tb_decline_drivers.psp_name\"}], \"Y\": [{\"queryRef\": \"Sum(tb_decline_drivers.delta_pts)\"}], \"Series\": [{\"queryRef\": \"tb_decline_drivers.phonepe_partner\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_decline_drivers\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"psp_name\"}, \"Name\": \"tb_decline_drivers.psp_name\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"delta_pts\"}}, \"Function\": 0}, \"Name\": \"Sum(tb_decline_drivers.delta_pts)\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"phonepe_partner\"}, \"Name\": \"tb_decline_drivers.phonepe_partner\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'2022 vs 2025 Delta Points by PSP (PhonePe Partner Breakdown)'\"}}}}}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 635,
+          "z": 0,
+          "width": 1240,
+          "height": 70,
+          "config": "{\"name\": \"tb_20_635\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 635, \"z\": 0, \"width\": 1240, \"height\": 70}}], \"singleVisual\": {\"visualType\": \"textbox\", \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Decline is business-side (bank or account rejections), not technical, and the chart averages payer and payee. The payer-side weighted decline is concentrated in Yes Bank, Axis and ICICI, PhonePe\\u2019s banking partners. This is correlational, since the data has no per-app-per-bank attribution. Missing source months: payee 2022-12, payer 2026-04.\", \"textStyle\": {\"fontSize\": \"9pt\", \"fontFamily\": \"Segoe UI\", \"color\": {\"solid\": {\"color\": \"#4A5568\"}}}}]}]}}]}}}"
+        }
+      ]
+    },
+    {
+      "name": "Page4",
+      "displayName": "4 Cross-Cutting Narrative",
+      "width": 1280,
+      "height": 900,
+      "visualContainers": [
+        {
+          "x": 20,
+          "y": 15,
+          "z": 0,
+          "width": 1240,
+          "height": 120,
+          "config": "{\"name\": \"vis_20_15\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 15, \"z\": 0, \"width\": 1240, \"height\": 120}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"tb_cross_timeline.month_date\"}], \"Y\": [{\"queryRef\": \"Sum(tb_cross_timeline.hhi)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_cross_timeline\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"month_date\"}, \"Name\": \"tb_cross_timeline.month_date\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"hhi\"}}, \"Function\": 0}, \"Name\": \"Sum(tb_cross_timeline.hhi)\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'1. HHI Index (Ecosystem Concentration)'\"}}}}}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 150,
+          "z": 0,
+          "width": 1240,
+          "height": 120,
+          "config": "{\"name\": \"vis_20_150\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 150, \"z\": 0, \"width\": 1240, \"height\": 120}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"tb_cross_timeline.month_date\"}], \"Y\": [{\"queryRef\": \"Sum(tb_cross_timeline.p2m_share_pct)\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_cross_timeline\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"month_date\"}, \"Name\": \"tb_cross_timeline.month_date\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"p2m_share_pct\"}}, \"Function\": 0}, \"Name\": \"Sum(tb_cross_timeline.p2m_share_pct)\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'2. P2M Volume Share (%)'\"}}}}}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 285,
+          "z": 0,
+          "width": 1240,
+          "height": 120,
+          "config": "{\"name\": \"vis_20_285\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 285, \"z\": 0, \"width\": 1240, \"height\": 120}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"tb_psp_monthly.month_date\"}], \"Y\": [{\"queryRef\": \"Sum(tb_psp_monthly.approved_weighted)\"}], \"Series\": [{\"queryRef\": \"tb_psp_monthly.psp_type\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_psp_monthly\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"month_date\"}, \"Name\": \"tb_psp_monthly.month_date\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"approved_weighted\"}}, \"Function\": 0}, \"Name\": \"Sum(tb_psp_monthly.approved_weighted)\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"psp_type\"}, \"Name\": \"tb_psp_monthly.psp_type\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'3. Weighted Approval Rate (%) \\u2014 Payer vs Payee Direct Comparison'\"}}}}}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 425,
+          "z": 0,
+          "width": 1240,
+          "height": 225,
+          "config": "{\"name\": \"vis_20_425\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 425, \"z\": 0, \"width\": 1240, \"height\": 225}}], \"singleVisual\": {\"visualType\": \"lineChart\", \"projections\": {\"Category\": [{\"queryRef\": \"tb_partner_gap.month_date\"}], \"Y\": [{\"queryRef\": \"Sum(tb_partner_gap.gap_pts)\"}], \"Series\": [{\"queryRef\": \"tb_partner_gap.psp_type\"}]}, \"prototypeQuery\": {\"Version\": 2, \"From\": [{\"Name\": \"t\", \"Entity\": \"tb_partner_gap\", \"Type\": 0}], \"Select\": [{\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"month_date\"}, \"Name\": \"tb_partner_gap.month_date\"}, {\"Aggregation\": {\"Expression\": {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"gap_pts\"}}, \"Function\": 0}, \"Name\": \"Sum(tb_partner_gap.gap_pts)\"}, {\"Column\": {\"Expression\": {\"SourceRef\": {\"Source\": \"t\"}}, \"Property\": \"psp_type\"}, \"Name\": \"tb_partner_gap.psp_type\"}]}, \"vcObjects\": {\"title\": [{\"properties\": {\"show\": {\"expr\": {\"Literal\": {\"Value\": \"true\"}}}, \"text\": {\"expr\": {\"Literal\": {\"Value\": \"'Partner Bank Approval Gap (pts) \\u2014 Payer-side evidence only (payee turns positive in 2026)'\"}}}}}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 665,
+          "z": 0,
+          "width": 1240,
+          "height": 75,
+          "config": "{\"name\": \"tb_20_665\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 665, \"z\": 0, \"width\": 1240, \"height\": 75}}], \"singleVisual\": {\"visualType\": \"textbox\", \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Payee: Yes Bank\\u2019s approval fell 9.02 pts while its volume share rose from 38.77% to 53.32%. Payer: Axis Bank\\u2019s approval fell 5.4 pts while its share rose from 16.36% to 35.26%. Yes Bank\\u2019s payer share fell, from 36.62% to 29.28%.\", \"textStyle\": {\"fontSize\": \"9.5pt\", \"fontFamily\": \"Segoe UI\", \"color\": {\"solid\": {\"color\": \"#1A202C\"}}}}]}]}}]}}}"
+        },
+        {
+          "x": 20,
+          "y": 755,
+          "z": 0,
+          "width": 1240,
+          "height": 125,
+          "config": "{\"name\": \"tb_20_755\", \"layouts\": [{\"id\": 0, \"position\": {\"x\": 20, \"y\": 755, \"z\": 0, \"width\": 1240, \"height\": 125}}], \"singleVisual\": {\"visualType\": \"textbox\", \"objects\": {\"general\": [{\"properties\": {\"paragraphs\": [{\"textRuns\": [{\"value\": \"Series are capped at the earliest common month across the tables, and gaps are not interpolated (missing: stg_upi_apps 2026-03, payee 2022-12, payer 2026-04). The partner gap is correlational. The 15 Oct 2026 UPI MDR postdates this data.\", \"textStyle\": {\"fontSize\": \"9pt\", \"fontFamily\": \"Segoe UI\", \"color\": {\"solid\": {\"color\": \"#4A5568\"}}}}]}]}}]}}}"
+        }
+      ]
+    }
+  ]
+}

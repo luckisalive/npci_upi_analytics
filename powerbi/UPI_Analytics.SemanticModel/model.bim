@@ -1,0 +1,558 @@
+{
+  "compatibilityLevel": 1600,
+  "model": {
+    "culture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "tb_hhi_trend",
+        "columns": [
+          {
+            "name": "month_date",
+            "dataType": "dateTime",
+            "sourceColumn": "month_date",
+            "summarizeBy": "none",
+            "formatString": "yyyy-mm-dd"
+          },
+          {
+            "name": "series",
+            "dataType": "string",
+            "sourceColumn": "series",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hhi_value",
+            "dataType": "double",
+            "sourceColumn": "hhi_value",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "tb_hhi_trend",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:/Users/lnegi/OneDrive/Desktop/npci_upi_analytics/powerbi/data/tb_hhi_trend.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"month_date\", type date}, {\"series\", type text}, {\"hhi_value\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "tb_app_shares",
+        "columns": [
+          {
+            "name": "month_date",
+            "dataType": "dateTime",
+            "sourceColumn": "month_date",
+            "summarizeBy": "none",
+            "formatString": "yyyy-mm-dd"
+          },
+          {
+            "name": "app_group",
+            "dataType": "string",
+            "sourceColumn": "app_group",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "market_share_pct",
+            "dataType": "double",
+            "sourceColumn": "market_share_pct",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "tb_app_shares",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:/Users/lnegi/OneDrive/Desktop/npci_upi_analytics/powerbi/data/tb_app_shares.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"month_date\", type date}, {\"app_group\", type text}, {\"market_share_pct\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "tb_leader",
+        "columns": [
+          {
+            "name": "month_date",
+            "dataType": "dateTime",
+            "sourceColumn": "month_date",
+            "summarizeBy": "none",
+            "formatString": "yyyy-mm-dd"
+          },
+          {
+            "name": "leader_name",
+            "dataType": "string",
+            "sourceColumn": "leader_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "leader_share_pct",
+            "dataType": "double",
+            "sourceColumn": "leader_share_pct",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "tb_leader",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:/Users/lnegi/OneDrive/Desktop/npci_upi_analytics/powerbi/data/tb_leader.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"month_date\", type date}, {\"leader_name\", type text}, {\"leader_share_pct\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "tb_snapshot",
+        "columns": [
+          {
+            "name": "as_of",
+            "dataType": "string",
+            "sourceColumn": "as_of",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "latest_hhi",
+            "dataType": "double",
+            "sourceColumn": "latest_hhi",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "hhi_band",
+            "dataType": "string",
+            "sourceColumn": "hhi_band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "leader_name",
+            "dataType": "string",
+            "sourceColumn": "leader_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "leader_share_pct",
+            "dataType": "double",
+            "sourceColumn": "leader_share_pct",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "tb_snapshot",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:/Users/lnegi/OneDrive/Desktop/npci_upi_analytics/powerbi/data/tb_snapshot.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"as_of\", type text}, {\"latest_hhi\", type number}, {\"hhi_band\", type text}, {\"leader_name\", type text}, {\"leader_share_pct\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "tb_p2p_p2m_long",
+        "columns": [
+          {
+            "name": "month_date",
+            "dataType": "dateTime",
+            "sourceColumn": "month_date",
+            "summarizeBy": "none",
+            "formatString": "yyyy-mm-dd"
+          },
+          {
+            "name": "rail",
+            "dataType": "string",
+            "sourceColumn": "rail",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "share_pct",
+            "dataType": "double",
+            "sourceColumn": "share_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "yoy_pct",
+            "dataType": "double",
+            "sourceColumn": "yoy_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "volume_mn",
+            "dataType": "double",
+            "sourceColumn": "volume_mn",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "tb_p2p_p2m_long",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:/Users/lnegi/OneDrive/Desktop/npci_upi_analytics/powerbi/data/tb_p2p_p2m_long.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"month_date\", type date}, {\"rail\", type text}, {\"share_pct\", type number}, {\"yoy_pct\", type number}, {\"volume_mn\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "tb_psp_monthly",
+        "columns": [
+          {
+            "name": "month_date",
+            "dataType": "dateTime",
+            "sourceColumn": "month_date",
+            "summarizeBy": "none",
+            "formatString": "yyyy-mm-dd"
+          },
+          {
+            "name": "psp_type",
+            "dataType": "string",
+            "sourceColumn": "psp_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "approved_weighted",
+            "dataType": "double",
+            "sourceColumn": "approved_weighted",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "approved_simple",
+            "dataType": "double",
+            "sourceColumn": "approved_simple",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "weighted_minus_simple",
+            "dataType": "double",
+            "sourceColumn": "weighted_minus_simple",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "tb_psp_monthly",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:/Users/lnegi/OneDrive/Desktop/npci_upi_analytics/powerbi/data/tb_psp_monthly.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"month_date\", type date}, {\"psp_type\", type text}, {\"approved_weighted\", type number}, {\"approved_simple\", type number}, {\"weighted_minus_simple\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "tb_psp_mix",
+        "columns": [
+          {
+            "name": "month_date",
+            "dataType": "dateTime",
+            "sourceColumn": "month_date",
+            "summarizeBy": "none",
+            "formatString": "yyyy-mm-dd"
+          },
+          {
+            "name": "psp_type",
+            "dataType": "string",
+            "sourceColumn": "psp_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "component",
+            "dataType": "string",
+            "sourceColumn": "component",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "pct_weighted",
+            "dataType": "double",
+            "sourceColumn": "pct_weighted",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "tb_psp_mix",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:/Users/lnegi/OneDrive/Desktop/npci_upi_analytics/powerbi/data/tb_psp_mix.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"month_date\", type date}, {\"psp_type\", type text}, {\"component\", type text}, {\"pct_weighted\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "tb_psp_persistent",
+        "columns": [
+          {
+            "name": "psp_type",
+            "dataType": "string",
+            "sourceColumn": "psp_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "psp_name",
+            "dataType": "string",
+            "sourceColumn": "psp_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "months_present",
+            "dataType": "int64",
+            "sourceColumn": "months_present",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "avg_approved",
+            "dataType": "double",
+            "sourceColumn": "avg_approved",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "total_volume_mn",
+            "dataType": "double",
+            "sourceColumn": "total_volume_mn",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "tb_psp_persistent",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:/Users/lnegi/OneDrive/Desktop/npci_upi_analytics/powerbi/data/tb_psp_persistent.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"psp_type\", type text}, {\"psp_name\", type text}, {\"months_present\", Int64.Type}, {\"avg_approved\", type number}, {\"total_volume_mn\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "tb_decline_drivers",
+        "columns": [
+          {
+            "name": "psp_type",
+            "dataType": "string",
+            "sourceColumn": "psp_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "psp_name",
+            "dataType": "string",
+            "sourceColumn": "psp_name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "approved_2022",
+            "dataType": "double",
+            "sourceColumn": "approved_2022",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "approved_2025",
+            "dataType": "double",
+            "sourceColumn": "approved_2025",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "delta_pts",
+            "dataType": "double",
+            "sourceColumn": "delta_pts",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "share_2022_pct",
+            "dataType": "double",
+            "sourceColumn": "share_2022_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "share_2025_pct",
+            "dataType": "double",
+            "sourceColumn": "share_2025_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "phonepe_partner",
+            "dataType": "string",
+            "sourceColumn": "phonepe_partner",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "tb_decline_drivers",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:/Users/lnegi/OneDrive/Desktop/npci_upi_analytics/powerbi/data/tb_decline_drivers.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"psp_type\", type text}, {\"psp_name\", type text}, {\"approved_2022\", type number}, {\"approved_2025\", type number}, {\"delta_pts\", type number}, {\"share_2022_pct\", type number}, {\"share_2025_pct\", type number}, {\"phonepe_partner\", type text}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "tb_cross_timeline",
+        "columns": [
+          {
+            "name": "month_date",
+            "dataType": "dateTime",
+            "sourceColumn": "month_date",
+            "summarizeBy": "none",
+            "formatString": "yyyy-mm-dd"
+          },
+          {
+            "name": "hhi",
+            "dataType": "double",
+            "sourceColumn": "hhi",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "p2m_share_pct",
+            "dataType": "double",
+            "sourceColumn": "p2m_share_pct",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "tb_cross_timeline",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:/Users/lnegi/OneDrive/Desktop/npci_upi_analytics/powerbi/data/tb_cross_timeline.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"month_date\", type date}, {\"hhi\", type number}, {\"p2m_share_pct\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "tb_partner_gap",
+        "columns": [
+          {
+            "name": "month_date",
+            "dataType": "dateTime",
+            "sourceColumn": "month_date",
+            "summarizeBy": "none",
+            "formatString": "yyyy-mm-dd"
+          },
+          {
+            "name": "psp_type",
+            "dataType": "string",
+            "sourceColumn": "psp_type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "partner_approved",
+            "dataType": "double",
+            "sourceColumn": "partner_approved",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "rest_approved",
+            "dataType": "double",
+            "sourceColumn": "rest_approved",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "gap_pts",
+            "dataType": "double",
+            "sourceColumn": "gap_pts",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "tb_partner_gap",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"C:/Users/lnegi/OneDrive/Desktop/npci_upi_analytics/powerbi/data/tb_partner_gap.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.None]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\", {{\"month_date\", type date}, {\"psp_type\", type text}, {\"partner_approved\", type number}, {\"rest_approved\", type number}, {\"gap_pts\", type number}})",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

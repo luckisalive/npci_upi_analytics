@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "UPI_Analytics"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d28855c4-495f-4dc8-82e1-6498a65e486b"
+  }
+}
