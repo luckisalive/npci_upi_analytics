@@ -15,3 +15,6 @@ powerbi/data/*
 dashboard/*
 tableau/*
 tableau_build.py
+fix_2023_11_payee_indusind_mislabel.sql
+fix_duplicate_app_entries_inSame_month.sql
+psp_payee_2023_11_indian_bank_collision_check.sql
