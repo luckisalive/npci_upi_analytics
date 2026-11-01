@@ -22,7 +22,7 @@
 - State-wise analysis (NPCI doesn't publish state-level transaction data publicly)
 - Fraud detection (no labeled transaction-level data available publicly)
 - Forecasting (ARIMA/Prophet on ~51 monthly aggregate rows is statistically indefensible)
-- 5 dashboards (reduced to 1 focused Tableau dashboard)
+- 5 dashboards (reduced to 1 focused four-page Power BI dashboard)
 
 **Why:** A project that answers two questions rigorously is stronger than one that gestures at nine questions superficially. Scope creep sourced from a ChatGPT-generated blueprint was explicitly rejected.
 
@@ -201,6 +201,8 @@
 **Counter-trend noted:** P2M share dipped slightly from 63.7% (June 2025) to 62.1% (December 2025) before stabilizing. This counter-trend requires investigation in EDA — do not present a clean upward trend without addressing it.
 
 **Framing decision:** This will be presented as a structural transition (UPI evolving from peer transfer tool to merchant payments infrastructure), not merely "P2M is growing." The September 2022 crossover is a specific, dateable event worth calling out in the dashboard.
+
+**Superseded 12-07-2026:** the September 2022 crossover date was a log-formatting artifact; the corrected date is August 2022 (50.01%). See "P2M crossover date corrected to August 2022" in Step 3.
 
 ---
 
@@ -609,3 +611,211 @@ APP_NAME_OVERRIDES = {
 **Verification:** confirmed zero month overlap across all three variants prior to reload (15 + 35 + 1 = 51, matching total row count with no double-counted month).
 
 **Status:** Fixed and verified 16-07-2026. Dashboard Page 1 market-leader trend and top-5 stacked area re-checked post-reload — no visible movement in either panel, confirming the pre-merge per-month figures were already correct and this was purely a name-consistency fix, not a volume-correction fix.
+
+### Decision: Dashboard tool switched from Tableau to Power BI
+
+**Date:** 01-11-2026
+
+**Finding:** A generated Tableau workbook (.twb) failed to load (error D2E8DA72): `simple-id` and `computed-sort` are not declared for the workbook version the file claimed (18.1). Cause: the generator targeted a newer schema than the version it declared in the file header.
+
+**Decision:** Dashboards built in Power BI from the same 11 CSV extracts, produced by `powerbi_build.py` from the staging DB. The ETL, SQL and staging tables are unaffected.
+
+**Why:** Hand-written .twb XML cannot be fully tested without Tableau, and the load errors cost more time than rebuilding in a tool that could open the data directly. The CSV layer is tool-agnostic, so nothing upstream changed.
+
+**Status:** Complete 01-11-2026.
+
+---
+
+### Decision: Page 3 decline-mix chart summed payer and payee — fixed by averaging
+
+**Date:** 01-11-2026
+
+**Finding:** The first Power BI build showed business-decline % at about 10% from Nov 2023 and about 20% by 2026, against about 5% and 9–10% in the documented Step 4 findings. A one-month dip near the end coincided with the missing payer 2026-04 month. Cause: every line visual defaulted to `Sum`, so `pct_weighted` was added across `psp_type`. The database was correct; this was a visual-layer aggregation error.
+
+**Fix:** The measure is averaged across `psp_type` (or split by `psp_type`). Rebuilt values match the documented figures.
+
+**Standing rule:** Any visual that aggregates across a categorical dimension must be reconciled against a documented figure before its chart is trusted.
+
+**Status:** Fixed and verified 01-11-2026.
+
+---
+
+### Decision: Top-5 app selection uses full-window average share (missing months = 0)
+
+**Date:** 01-11-2026
+
+**Finding:** The first selection rule averaged share only over months an app appeared, which favoured recent launches (Navi, super.money).
+
+**Decision:** Rank apps by mean share over the full window with absent months counted as 0. All other apps are grouped as "All other apps".
+
+---
+
+### Decision: Page 4 unified timeline built as aligned panels, capped at the earliest common month
+
+**Date:** 01-11-2026
+
+**Decision:** HHI, P2M share and payer/payee approval are shown as stacked panels sharing one date axis, not a single multi-axis chart, capped at the earliest common month across the three tables. Gaps (stg_upi_apps 2026-03, payee 2022-12, payer 2026-04) are not interpolated. The partner-bank gap chart is captioned payer-side only: the payee gap turns positive in 2026, so "same three banks on both sides" rests on the weighted decomposition, not this chart.
+
+---
+ 
+## Analytics Phase — Dashboard and Extension (01-11-2026)
+ 
+### Decision: Dashboard tool switched from Tableau to Power BI
+ 
+**Date:** 01-11-2026
+ 
+**Finding:** A generated Tableau workbook (.twb) failed to load (error D2E8DA72): `simple-id` and `computed-sort`
+were not declared for the workbook version the file claimed (18.1). The generator had been written against a
+newer schema than the version it declared in the file header.
+ 
+**Decision:** The four dashboard pages were built in Power BI from the same 11 CSV extracts, produced by
+`powerbi_build.py` from the staging DB. Nothing upstream (ETL, SQL, staging tables) changed.
+ 
+**Why:** Hand-written .twb XML could not be fully tested without Tableau, and the load errors cost more time than
+rebuilding in a tool that opened the data directly. The CSV layer is tool-agnostic.
+ 
+**Status:** Complete 01-11-2026.
+ 
+---
+ 
+### Decision: Decline-mix chart summed payer and payee — fixed by averaging
+ 
+**Date:** 01-11-2026
+ 
+**Finding:** The first Power BI build showed business-decline % near 10% from Nov 2023 and near 20% by 2026, against
+about 5% and 9–10% in the documented Step 4 findings. A one-month dip near the end coincided with the missing payer
+2026-04 month. Cause: every line visual defaulted to `Sum`, so `pct_weighted` was added across `psp_type`.
+ 
+**Fix:** The measure is averaged across `psp_type`. Rebuilt values match the documented figures.
+ 
+**Why documented:** A new risk class — a visual-layer aggregation error on a correct database. Distinct from the
+load-time file errors and the log-precision bug already recorded.
+ 
+**Standing rule:** Any visual that aggregates across a categorical dimension must be reconciled against a
+documented figure before the chart is trusted.
+ 
+**Status:** Fixed and verified 01-11-2026.
+ 
+---
+ 
+### Decision: Top-5 app grouping uses full-window average share (absent months = 0)
+ 
+**Date:** 01-11-2026
+ 
+**Finding:** The first selection rule averaged share only over the months an app appeared, which favoured recent
+launches (Navi, super.money) over longer-established apps.
+ 
+**Decision:** Apps are ranked by mean share over the full window with absent months counted as 0; the rest are
+grouped as "All other apps".
+ 
+**Status:** Implemented in `powerbi_build.py` 01-11-2026.
+ 
+---
+ 
+### Decision: Page 4 built as aligned panels, capped at the earliest common month; partner-gap chart is payer-side evidence only
+ 
+**Date:** 01-11-2026
+ 
+**Decision:** HHI, P2M share and payer/payee approval are shown as aligned panels on a shared date axis (not one
+multi-axis chart), capped at the earliest common month across the three tables. Gaps (UPI Apps 2026-03, payee
+2022-12, payer 2026-04) are not interpolated.
+ 
+**Correction to the structure file:** `upi_dashboard_structure.html` said Yes Bank compounds (approval down,
+share up) on both sides. Per the 13-07-2026 and 15-07-2026 decompositions, that holds on the payee side only;
+on the payer side Axis Bank is the compounding PSP and Yes Bank's share fell (36.62% to 29.28%).
+ 
+**Caveat on the gap chart:** the simple-average payee gap turns positive in 2026, so the chart supports the
+payer-side story only. Payee-side attribution rests on the volume-weighted decomposition.
+ 
+**Status:** Verified 01-11-2026.
+ 
+---
+ 
+### Decision: Headline figures re-verified against the database before publishing
+ 
+**Date:** 01-11-2026
+ 
+Direct queries: P2M share first >= 50% in 2022-08 (50.01%); 63.66 / 62.32 / 62.63 for Jun 2025 / Dec 2025 /
+Mar 2026; HHI peak 3,904.52 in May 2024. All match prior entries. Applies the standing rule from the 12-07-2026
+crossover entry (re-verify against the DB, not from logs).
+ 
+---
+ 
+## MDR extension
+ 
+### Decision: Scope amendment — MDR as a scenario analysis, not a measured study
+ 
+**Date:** 01-11-2026
+ 
+**Decision:** A third item is added to scope: a parametric what-if on the proposed P2M MDR. It does not breach the
+earlier rejection of forecasting (no statistical extrapolation; assumptions are explicit parameters). All MDR claims
+are labelled "scenario" or "hypothesis"; none are presented as findings.
+ 
+**Why not measurable:** The MDR was due 15 Oct 2026; on 13 Oct 2026 NPCI deferred it to "immediately post Diwali"
+at a date to be notified (no rate change announced; a reported January 2027 start is not confirmed). The dataset
+has no post-policy month, the first affected months overlap festive-season volume, and monthly aggregates cannot
+isolate transactions above Rs 2,000.
+ 
+---
+ 
+### Decision: Policy parameters used as model inputs (status as of 01-11-2026)
+ 
+| Parameter | Value | Status |
+| --- | --- | --- |
+| Rate | 0.4% on P2M above Rs 2,000 | news-reported, consistent across outlets |
+| Cap | Rs 300 for transactions of Rs 75,000 and above (0.4% x 75,000) | news-reported |
+| Payer | merchant; P2P stays free | news-reported |
+| Start date | deferred from 15 Oct 2026 to post-Diwali, date TBA (NPCI, 13 Oct 2026) | news-reported; re-check |
+| Issuer/app/acquirer split | 40/30/30 | VERIFY (reported as proposed) |
+| Small-merchant fund | 5% of collections | VERIFY |
+| Flat Rs 5 sector rates | excluded from model | VERIFY |
+| Micro-merchant exemption (up to Rs 1 lakh/month via QR) | not modelled by default | VERIFY against primary document |
+| Share of P2M volume at or below Rs 2,000 | 95% | VERIFY (volume, not value) |
+ 
+All "VERIFY" rows must be checked against NPCI's primary document, not news explainers, before the README quotes them.
+ 
+---
+ 
+### Decision: MDR hypotheses and counter-hypothesis (stated before post-policy data exists)
+ 
+**Date:** 01-11-2026
+ 
+- **Derivations, not hypotheses:** the issuer share (about 40%) and the low effective take rate follow arithmetically
+  from the proposed split, the threshold, the cap and the assumed share of value above the threshold (p). They
+  are reported as model outputs.
+- **H2 (testable in structure):** app-side gains concentrate in the leading apps if the app share follows value
+  share. Evidence available now: app-level HHI on value (3,719) vs volume (3,503).
+- **H4:** merchants do not leave UPI, since 0.4% undercuts historical card MDR of around 1% (external figure;
+  not testable here).
+- **H5 (untestable in monthly aggregates):** threshold gaming (bill-splitting below Rs 2,000, QR-splitting under
+  the Rs 1 lakh exemption). Listed as forward-looking only.
+- **Counter-hypothesis (untestable):** merchants surcharge purchases above Rs 2,000 rather than absorb the fee.
+---
+ 
+### Decision: MDR scenario model — specification and first run
+ 
+**Date:** 01-11-2026
+ 
+**Model (`mdr_scenario.py`):** trailing 12 months ending at the earliest common month of `stg_p2p_p2m` and
+`stg_upi_apps`. Pool = annual P2M value x p x effective rate, where the effective rate blends 0.4% with the capped
+rate for a stated share of value in transactions of Rs 75,000 and above (three cap scenarios, assumed mean ticket
+Rs 150,000). p is swept from a derived floor to an assumed ceiling of 80%. The pool is split 40/30/30; the app share
+is allocated by **value** share (a fee on value follows value, not volume).
+ 
+**First run (window Apr 2025 – Mar 2026):** annual P2M value Rs 9,093,029 cr; average ticket Rs 597; p floor
+16.8%; notional pool Rs 4,874 cr to Rs 29,098 cr; mid case 0.187% of total P2M value; app-level HHI 3,719 (value)
+vs 3,503 (volume).
+ 
+**Limitations stated with the results:**
+- p has no data source above the derived floor; results are a band.
+- p floor assumes the reported 95%-of-volume figure.
+- App shares are of total UPI value (P2P plus P2M); `stg_upi_apps` has no P2M-only split.
+- `stg_upi_apps` has no 2026-03 data inside the window, so app shares use 11 months.
+- `stg_top15_psp` is by payer/payee PSP, not remitter/issuer bank, so no issuer-level breakdown is possible.
+**Open items:** (1) find a ticket-size or value-band source for P2M; (2) confirm VERIFY parameters against the NPCI
+primary document; (3) update the start date when NPCI notifies it; (4) re-run once post-policy months exist, and
+keep the festive-season confound in mind.
+ 
+---
+ 
+*Last updated: Power BI dashboard complete; MDR scenario extension added; README finalised.*
